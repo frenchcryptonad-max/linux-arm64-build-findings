@@ -1,0 +1,17 @@
+make: Entering directory '<BUILD>/src'
+/bin/bash ../libtool  --tag=CC   --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I<LIBSIGSEGV_SOURCE>/src -I..  -I. -I<LIBSIGSEGV_SOURCE>/src   -O2 -g -Wall -Wextra -Wpedantic -Werror -c -o handler.lo <LIBSIGSEGV_SOURCE>/src/handler.c
+libtool: compile:  /usr/bin/gcc -DHAVE_CONFIG_H -I. -I<LIBSIGSEGV_SOURCE>/src -I.. -I. -I<LIBSIGSEGV_SOURCE>/src -O2 -g -Wall -Wextra -Wpedantic -Werror -c <LIBSIGSEGV_SOURCE>/src/handler.c  -fPIC -DPIC -o .libs/handler.o
+In file included from <LIBSIGSEGV_SOURCE>/src/fault-linux-arm.h:17,
+                 from <LIBSIGSEGV_SOURCE>/src/fault.h:36,
+                 from <LIBSIGSEGV_SOURCE>/src/handler-unix.c:77,
+                 from <LIBSIGSEGV_SOURCE>/src/handler.c:19:
+<LIBSIGSEGV_SOURCE>/src/handler-unix.c: In function 'sigsegv_handler':
+<LIBSIGSEGV_SOURCE>/src/fault-posix-ucontext.h:19:44: error: unused parameter 'sig' [-Werror=unused-parameter]
+   19 | #define SIGSEGV_FAULT_HANDLER_ARGLIST  int sig, siginfo_t *sip, void *ucp
+      |                                        ~~~~^~~
+<LIBSIGSEGV_SOURCE>/src/handler-unix.c:134:18: note: in expansion of macro 'SIGSEGV_FAULT_HANDLER_ARGLIST'
+  134 | sigsegv_handler (SIGSEGV_FAULT_HANDLER_ARGLIST)
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+make: *** [Makefile:497: handler.lo] Error 1
+make: Leaving directory '<BUILD>/src'

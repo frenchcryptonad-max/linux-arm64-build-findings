@@ -1,0 +1,4 @@
+Clang warnings/no-Werror: RC=0
+Clang strict/Werror:      RC=2
+GCC warnings/no-Werror:   RC=0
+GCC strict/Werror:        RC=2

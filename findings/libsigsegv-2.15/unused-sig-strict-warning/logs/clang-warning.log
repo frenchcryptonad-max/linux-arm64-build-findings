@@ -1,0 +1,13 @@
+make: Entering directory '<BUILD>/src'
+/bin/bash ../libtool  --tag=CC   --mode=compile <LLVM_PREFIX>/bin/clang -DHAVE_CONFIG_H -I. -I<LIBSIGSEGV_SOURCE>/src -I..  -I. -I<LIBSIGSEGV_SOURCE>/src   -O2 -g -Wall -Wextra -Wpedantic -c -o handler.lo <LIBSIGSEGV_SOURCE>/src/handler.c
+libtool: compile:  <LLVM_PREFIX>/bin/clang -DHAVE_CONFIG_H -I. -I<LIBSIGSEGV_SOURCE>/src -I.. -I. -I<LIBSIGSEGV_SOURCE>/src -O2 -g -Wall -Wextra -Wpedantic -c <LIBSIGSEGV_SOURCE>/src/handler.c  -fPIC -DPIC -o .libs/handler.o
+In file included from <LIBSIGSEGV_SOURCE>/src/handler.c:19:
+<LIBSIGSEGV_SOURCE>/src/handler-unix.c:134:18: warning: unused parameter 'sig' [-Wunused-parameter]
+  134 | sigsegv_handler (SIGSEGV_FAULT_HANDLER_ARGLIST)
+      |                  ^
+<LIBSIGSEGV_SOURCE>/src/fault-posix-ucontext.h:19:44: note: expanded from macro 'SIGSEGV_FAULT_HANDLER_ARGLIST'
+   19 | #define SIGSEGV_FAULT_HANDLER_ARGLIST  int sig, siginfo_t *sip, void *ucp
+      |                                            ^
+1 warning generated.
+libtool: compile:  <LLVM_PREFIX>/bin/clang -DHAVE_CONFIG_H -I. -I<LIBSIGSEGV_SOURCE>/src -I.. -I. -I<LIBSIGSEGV_SOURCE>/src -O2 -g -Wall -Wextra -Wpedantic -c <LIBSIGSEGV_SOURCE>/src/handler.c -o handler.o >/dev/null 2>&1
+make: Leaving directory '<BUILD>/src'
