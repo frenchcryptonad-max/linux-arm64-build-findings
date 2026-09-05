@@ -1,0 +1,4 @@
+Existing published finding:
+findings/desktop-commander-0.2.48/npm-runtime-dependency-advisories/
+
+This investigation intentionally remains outside fixes/ because no consumer-effective validated fix was established.
