@@ -1,0 +1,29 @@
+============================================
+   GNU MP 6.3.0: tests/mpn/test-suite.log
+============================================
+
+# TOTAL: 54
+# PASS:  53
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+
+System information (uname -a): Linux 7.0.0-1010-oracle #10-Ubuntu SMP PREEMPT Fri Aug 7 10:08:03 UTC 2026 aarch64
+Distribution information (/etc/os-release):
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04.1 LTS (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+
+.. contents:: :depth: 2
+
+SKIP: t-addaddmul
+=================
+
+SKIP t-addaddmul (exit status: 77)

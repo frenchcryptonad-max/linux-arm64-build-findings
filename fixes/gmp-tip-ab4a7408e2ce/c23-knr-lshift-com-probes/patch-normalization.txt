@@ -1,0 +1,6 @@
+Original patch SHA-256: 686049b1c212d4a1439b8dd934193a25188aee1cd377dbc87a151039203dc80b
+Normalized patch SHA-256: 782b24acd12d398f4a67f6bfdb3575734a27cc8d0867e50771b015f58192607c
+Reason: trailing whitespace detected by git diff --check before publication.
+Normalized source exact match with previously validated source: PASS
+Revalidation required: NO
+Revalidation status: NOT_REQUIRED
