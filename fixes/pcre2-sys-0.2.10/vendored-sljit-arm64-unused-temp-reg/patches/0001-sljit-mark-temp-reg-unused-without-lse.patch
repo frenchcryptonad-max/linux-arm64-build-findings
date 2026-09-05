@@ -1,0 +1,4 @@
+--- a/upstream/deps/sljit/sljit_src/sljitNativeARM_64.c	2026-09-05 23:37:48.289797462 +0000
++++ b/upstream/deps/sljit/sljit_src/sljitNativeARM_64.c	2026-09-05 23:37:48.312783392 +0000
+@@ -3380,0 +3381 @@
++	SLJIT_UNUSED_ARG(temp_reg); /* !__ARM_FEATURE_ATOMICS */
