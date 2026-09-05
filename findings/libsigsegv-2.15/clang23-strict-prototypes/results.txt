@@ -1,0 +1,28 @@
+libsigsegv version: 2.15
+
+Targeted diagnostic:
+-Werror=strict-prototypes
+
+Clang 23:
+configure RC=0
+build RC=2
+strict-prototypes diagnostics=6
+result=REPRODUCED
+
+GCC 15:
+configure RC=0
+build RC=0
+strict-prototypes diagnostics=0
+result=NOT_REPRODUCED_IN_TESTED_MATRIX
+
+Current demonstrated scope:
+Clang 23 in the tested Linux AArch64 environment.
+
+This result does not establish that other Clang versions or platforms
+are affected, nor that GCC is generally unaffected.
+
+Security vulnerability claim:
+NO
+
+Runtime bug claim:
+NO
