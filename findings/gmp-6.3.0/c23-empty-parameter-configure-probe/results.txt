@@ -1,0 +1,32 @@
+Finding status: REPRODUCED
+
+GCC_DEFAULT=FAIL
+GCC_GNU17=PASS
+GCC_GNU23=FAIL
+CLANG_GNU17=PASS
+CLANG_GNU23=FAIL
+REPRODUCER=PASS
+
+Expected matrix:
+GCC default: FAIL
+GCC GNU17: PASS
+GCC GNU23: FAIL
+Clang GNU17: PASS
+Clang GNU23: FAIL
+
+Conclusion:
+GMP 6.3.0 contains a compiler reliability probe defining void g(){} and
+subsequently calling g with arguments.
+
+The same configure path passes under GNU17 semantics and fails under GNU23
+semantics with both recorded compiler families.
+
+Scope:
+Linux AArch64 is the reproduction environment, not an established cause.
+GMP arithmetic and mpn are not implicated.
+No Clang 23 reproduction is claimed.
+
+Upstream status: ACCEPTED
+Known upstream changeset: 8e7bb4ae7a18
+
+No correction is included in this finding.

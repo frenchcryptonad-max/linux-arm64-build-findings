@@ -1,0 +1,9 @@
+Component: GNU GMP 6.3.0
+Architecture: aarch64
+Kernel: Linux 7.0.0-1010-oracle
+Host triplet: aarch64-unknown-linux-gnu
+GCC: gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+Clang: Ubuntu clang version 21.1.8 (6ubuntu1)
+Source SHA-256: a3c2b80201b89e68616f4ad30bc66aee4927c3ce50e33929ca819d5c43538898
+Relevant source: acinclude.m4
+Observed definition: void g(){}
