@@ -1,0 +1,8 @@
+Architecture: aarch64
+OS: Ubuntu 26.04.1 LTS
+Kernel family: Linux 7.0
+glibc: 2.43
+Clang/Clang++: 23.1.0
+GCC/G++: 15.2.0
+GNU M4: 1.4.21
+C++ support: enabled

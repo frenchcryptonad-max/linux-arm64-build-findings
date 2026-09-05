@@ -1,0 +1,33 @@
+In file included from namespace.cc:3:
+/build/build/m4-1.4.21-oracle-n1-cxx/lib/fcntl.h:787:1: error: reference to overloaded function could not be resolved; did you mean to call it?
+  787 | _GL_CXXALIASWARN (openat);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~
+/build/build/m4-1.4.21-oracle-n1-cxx/lib/time.h:385:4: note: expanded from macro '_GL_CXXALIASWARN'
+  385 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/build/build/m4-1.4.21-oracle-n1-cxx/lib/time.h:387:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  387 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/build/build/m4-1.4.21-oracle-n1-cxx/lib/time.h:392:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  392 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  393 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  394 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/build/build/m4-1.4.21-oracle-n1-cxx/lib/time.h:559:30: note: expanded from macro '_GL_WARN_ON_USE'
+  559 | _GL_WARN_EXTERN_C __typeof__ (function) function \
+      |                              ^~~~~~~~~~
+/usr/include/aarch64-linux-gnu/bits/fcntl2.h:195:1: note: possible target for call
+  195 | openat (int __fd, __fortify_clang_overload_arg (const char *, ,__path),
+      | ^
+/usr/include/aarch64-linux-gnu/bits/fcntl2.h:185:1: note: possible target for call
+  185 | openat (int __fd, __fortify_clang_overload_arg (const char *, ,__path),
+      | ^
+/usr/include/aarch64-linux-gnu/bits/fcntl2.h:181:1: note: possible target for call
+  181 | openat (int __fd, const char *__path, int __oflag, mode_t __mode, ...)
+      | ^
+/usr/include/fcntl.h:233:12: note: possible target for call
+  233 | extern int openat (int __fd, const char *__file, int __oflag, ...)
+      |            ^
+1 error generated.
