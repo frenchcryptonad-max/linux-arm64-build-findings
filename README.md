@@ -6,9 +6,10 @@ Reproducible Linux ARM64 build, toolchain, runtime and dependency compatibility 
 
 The repository is organized by lifecycle, not by programming language:
 
+- `audits/<component-version>/<audit-id>/` preserves validated NO_FINDING results, corrected diagnostics, and investigations that do not justify a finding or fix.
 - `findings/<component-version>/<finding-id>/` proves a reproducible problem or compatibility limitation.
 - `fixes/<component-version>/<finding-id>/` contains a separate patch candidate or validated fix with before/after evidence.
-- FINDING and FIX are published in separate commits.
+- AUDIT, FINDING and FIX records are published with separate traceable scopes; FINDING and FIX remain separate commits.
 - `SHA256SUMS` files protect the published evidence sets.
 
 A finding may span several technologies. Current evidence includes C, C++, Rust, GNU Autoconf/M4, Gnulib, SLJIT, JavaScript/TypeScript, Node.js/npm and shell test harnesses.

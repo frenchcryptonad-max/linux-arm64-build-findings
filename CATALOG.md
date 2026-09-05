@@ -14,6 +14,8 @@
 | pcre2-sys 0.2.10 vendored SLJIT | `findings/pcre2-sys-0.2.10/vendored-sljit-arm64-unused-temp-reg` | FINDING / FIXED UPSTREAM | C, SLJIT, AArch64 |
 | pcre2-sys 0.2.10 vendored SLJIT | `fixes/pcre2-sys-0.2.10/vendored-sljit-arm64-unused-temp-reg` | VALIDATED FIX / backport | C, SLJIT |
 | Desktop Commander 0.2.48 | `findings/desktop-commander-0.2.48/npm-runtime-dependency-advisories` | FINDING | Node.js, npm, JavaScript/TypeScript dependencies |
+| Desktop Commander 0.2.48 | `audits/desktop-commander-0.2.48/runtime-ripgrep-arm64-validation` | AUDIT / NO FINDING | Node.js, systemd, ripgrep, ARM64, NEON, PCRE2 |
+| Desktop Commander 0.2.48 | `audits/desktop-commander-0.2.48/security-remediation-investigation` | INVESTIGATION / NO VALIDATED FIX | Node.js, npm, Sharp, ExcelJS, UUID, Puppeteer |
 
 ## Recent traceability
 
@@ -22,7 +24,9 @@
 - `4263a0a1f49d7d446d7dc151bc3d5db9aba3c105` — vendored SLJIT ARM64 unused-parameter finding.
 - `05e305ad39d44ab6b150864f7b8072bb415ca590` — validated SLJIT ARM64 backport.
 - `e109fdb60dfc545f31a4d89795f1a22f3970fbb9` — Desktop Commander 0.2.48 runtime dependency advisory finding.
+- `7aa32b306007776b50b824b481c5990053989408` — Desktop Commander runtime and bundled ripgrep ARM64 audit (NO FINDING).
+- `66c591330f216c718cbb3e04fe32c089d87b574c` — Desktop Commander security remediation investigation (NO VALIDATED FIX).
 
 ## Status vocabulary
 
-`FINDING` proves a problem. `PATCH CANDIDATE` is not yet a validated general fix. `VALIDATED FIX` has passed the applicable targeted, full and non-regression validation. Upstream state is recorded independently when known.
+`AUDIT / NO FINDING` preserves a verified negative or corrected diagnostic without asserting a defect. `INVESTIGATION / NO VALIDATED FIX` preserves tested remediation work that did not reach fix status. `FINDING` proves a problem. `PATCH CANDIDATE` is not yet a validated general fix. `VALIDATED FIX` has passed the applicable targeted, full and non-regression validation. Upstream state is recorded independently when known.
