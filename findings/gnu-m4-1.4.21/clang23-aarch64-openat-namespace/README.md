@@ -74,3 +74,11 @@ Further comparison with newer Gnulib snapshots and other Clang/glibc versions is
 This report and original reproduction scripts are provided under the repository license.
 
 GNU M4, Gnulib, glibc, LLVM/Clang and GCC remain under their respective upstream licenses.
+
+## Validated fix
+
+The validated correction is maintained separately from this finding:
+
+[`fixes/gnu-m4-1.4.21/clang23-aarch64-openat-namespace/`](../../../fixes/gnu-m4-1.4.21/clang23-aarch64-openat-namespace/)
+
+Validated-fix commit history begins with `a087ff7`.
