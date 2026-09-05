@@ -1,0 +1,39 @@
+make: Entering directory '<EVIDENCE>/build-ORIGINAL/tests'
+depbase=`echo test-fcntl-h-c++.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+/opt/llvm-23.1.0/bin/clang++ -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I<EVIDENCE>/src-ORIGINAL/tests -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I<EVIDENCE>/src-ORIGINAL/tests -I.. -I<EVIDENCE>/src-ORIGINAL/tests/.. -I../lib -I<EVIDENCE>/src-ORIGINAL/tests/../lib -D_FORTIFY_SOURCE=3 -Wno-error -Wno-error -O2 -pipe -mcpu=neoverse-n1 -fstack-protector-strong -MT test-fcntl-h-c++.o -MD -MP -MF $depbase.Tpo -c -o test-fcntl-h-c++.o <EVIDENCE>/src-ORIGINAL/tests/test-fcntl-h-c++.cc &&\
+mv -f $depbase.Tpo $depbase.Po
+In file included from <EVIDENCE>/src-ORIGINAL/tests/test-fcntl-h-c++.cc:22:
+../lib/fcntl.h:787:1: error: reference to overloaded function could not be resolved; did you mean to call it?
+  787 | _GL_CXXALIASWARN (openat);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~
+./sys/select.h:454:4: note: expanded from macro '_GL_CXXALIASWARN'
+  454 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./sys/select.h:456:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  456 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./sys/select.h:461:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  461 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  462 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  463 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./sys/select.h:600:30: note: expanded from macro '_GL_WARN_ON_USE'
+  600 | _GL_WARN_EXTERN_C __typeof__ (function) function \
+      |                              ^~~~~~~~~~
+/usr/include/aarch64-linux-gnu/bits/fcntl2.h:195:1: note: possible target for call
+  195 | openat (int __fd, __fortify_clang_overload_arg (const char *, ,__path),
+      | ^
+/usr/include/aarch64-linux-gnu/bits/fcntl2.h:185:1: note: possible target for call
+  185 | openat (int __fd, __fortify_clang_overload_arg (const char *, ,__path),
+      | ^
+/usr/include/aarch64-linux-gnu/bits/fcntl2.h:181:1: note: possible target for call
+  181 | openat (int __fd, const char *__path, int __oflag, mode_t __mode, ...)
+      | ^
+/usr/include/fcntl.h:233:12: note: possible target for call
+  233 | extern int openat (int __fd, const char *__file, int __oflag, ...)
+      |            ^
+1 error generated.
+make: *** [Makefile:8965: test-fcntl-h-c++.o] Error 1
+make: Leaving directory '<EVIDENCE>/build-ORIGINAL/tests'

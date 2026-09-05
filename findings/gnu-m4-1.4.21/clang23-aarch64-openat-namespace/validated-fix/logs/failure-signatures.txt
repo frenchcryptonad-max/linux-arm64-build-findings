@@ -1,0 +1,18 @@
+
+===== ORIGINAL =====
+../lib/fcntl.h:787:1: error: reference to overloaded function could not be resolved; did you mean to call it?
+../lib/fcntl.h:787:1: error: reference to overloaded function could not be resolved; did you mean to call it?
+
+===== FLOAT_ONLY =====
+../lib/fcntl.h:787:1: error: reference to overloaded function could not be resolved; did you mean to call it?
+../lib/fcntl.h:787:1: error: reference to overloaded function could not be resolved; did you mean to call it?
+
+===== OPENAT_ONLY =====
+# XFAIL: 0
+# FAIL:  0
+# ERROR: 0
+
+===== BOTH =====
+# XFAIL: 0
+# FAIL:  0
+# ERROR: 0

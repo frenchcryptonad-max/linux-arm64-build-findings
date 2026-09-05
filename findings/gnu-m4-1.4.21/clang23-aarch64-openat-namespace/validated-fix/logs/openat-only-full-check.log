@@ -1,0 +1,3068 @@
+cd checks && make
+  GEN      public-submodule-commit
+make[1]: Entering directory '<EVIDENCE>/build-OPENAT_ONLY/checks'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '<EVIDENCE>/build-OPENAT_ONLY/checks'
+make  check-recursive
+make[1]: Entering directory '<EVIDENCE>/build-OPENAT_ONLY'
+Making check in .
+make[2]: Entering directory '<EVIDENCE>/build-OPENAT_ONLY'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '<EVIDENCE>/build-OPENAT_ONLY'
+Making check in examples
+make[2]: Entering directory '<EVIDENCE>/build-OPENAT_ONLY/examples'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '<EVIDENCE>/build-OPENAT_ONLY/examples'
+Making check in lib
+make[2]: Entering directory '<EVIDENCE>/build-OPENAT_ONLY/lib'
+make  check-am
+make[3]: Entering directory '<EVIDENCE>/build-OPENAT_ONLY/lib'
+make[3]: Leaving directory '<EVIDENCE>/build-OPENAT_ONLY/lib'
+make[2]: Leaving directory '<EVIDENCE>/build-OPENAT_ONLY/lib'
+Making check in src
+make[2]: Entering directory '<EVIDENCE>/build-OPENAT_ONLY/src'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '<EVIDENCE>/build-OPENAT_ONLY/src'
+Making check in doc
+make[2]: Entering directory '<EVIDENCE>/build-OPENAT_ONLY/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '<EVIDENCE>/build-OPENAT_ONLY/doc'
+Making check in checks
+make[2]: Entering directory '<EVIDENCE>/build-OPENAT_ONLY/checks'
+make  check-local
+make[3]: Entering directory '<EVIDENCE>/build-OPENAT_ONLY/checks'
+PATH=`pwd`/../src":"$PATH; export PATH; \
+<EVIDENCE>/src-OPENAT_ONLY/checks/check-them -I <EVIDENCE>/src-OPENAT_ONLY/checks/../examples <EVIDENCE>/src-OPENAT_ONLY/checks/*[0-9][0-9][0-9].* <EVIDENCE>/src-OPENAT_ONLY/checks/stackovf.test
+m4 (GNU M4) 1.4.21
+Copyright (C) 2026 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Rene' Seindal.
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/001.preprocess
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/002.debugging_
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/003.command_li
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/004.command_li
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/005.command_li
+ skipping: system does not allow closing stdout
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/006.command_li
+ skipping: system does not allow closing stdout
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/007.command_li
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/008.comments
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/009.comments
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/010.input_proc
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/011.input_proc
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/012.inhibiting
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/013.inhibiting
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/014.inhibiting
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/015.inhibiting
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/016.inhibiting
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/017.inhibiting
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/018.inhibiting
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/019.inhibiting
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/020.macro_argu
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/021.macro_argu
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/022.macro_argu
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/023.macro_argu
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/024.macro_argu
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/025.quoting_ar
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/026.macro_expa
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/027.macro_expa
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/028.define
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/029.define
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/030.define
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/031.arguments
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/032.arguments
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/033.arguments
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/034.arguments
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/035.arguments
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/036.arguments
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/037.pseudo_arg
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/038.pseudo_arg
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/039.pseudo_arg
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/040.pseudo_arg
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/041.pseudo_arg
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/042.pseudo_arg
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/043.pseudo_arg
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/044.pseudo_arg
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/045.pseudo_arg
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/046.undefine
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/047.undefine
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/048.undefine
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/049.defn
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/050.defn
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/051.defn
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/052.defn
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/053.defn
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/054.defn
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/055.defn
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/056.pushdef
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/057.pushdef
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/058.indir
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/059.indir
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/060.indir
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/061.builtin
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/062.builtin
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/063.builtin
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/064.builtin
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/065.builtin
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/066.ifdef
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/067.ifelse
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/068.ifelse
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/069.ifelse
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/070.ifelse
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/071.ifelse
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/072.shift
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/073.shift
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/074.shift
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/075.shift
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/076.shift
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/077.shift
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/078.shift
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/079.shift
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/080.forloop
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/081.forloop
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/082.forloop
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/083.foreach
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/084.foreach
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/085.foreach
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/086.foreach
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/087.foreach
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/088.foreach
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/089.stacks
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/090.stacks
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/091.compositio
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/092.compositio
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/093.compositio
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/094.compositio
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/095.dumpdef
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/096.dumpdef
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/097.trace
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/098.trace
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/099.trace
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/100.trace
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/101.trace
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/102.debug_leve
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/103.debug_leve
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/104.debug_leve
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/105.debug_outp
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/106.dnl
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/107.dnl
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/108.dnl
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/109.changequot
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/110.changequot
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/111.changequot
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/112.changequot
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/113.changequot
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/114.changequot
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/115.changequot
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/116.changequot
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/117.changequot
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/118.changequot
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/119.changequot
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/120.changequot
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/121.changequot
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/122.changecom
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/123.changecom
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/124.changecom
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/125.changecom
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/126.changecom
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/127.changecom
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/128.changeword
+ skipping: no changeword support
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/129.changeword
+ skipping: no changeword support
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/130.changeword
+ skipping: no changeword support
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/131.changeword
+ skipping: no changeword support
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/132.changeword
+ skipping: no changeword support
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/133.changeword
+ skipping: no changeword support
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/134.changeword
+ skipping: no changeword support
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/135.m4wrap
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/136.m4wrap
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/137.m4wrap
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/138.m4wrap
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/139.m4wrap
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/140.m4wrap
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/141.include
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/142.include
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/143.include
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/144.include
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/145.include
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/146.include
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/147.diversions
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/148.diversions
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/149.diversions
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/150.diversions
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/151.divert
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/152.divert
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/153.divert
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/154.divert
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/155.divert
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/156.undivert
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/157.undivert
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/158.undivert
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/159.undivert
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/160.undivert
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/161.undivert
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/162.divnum
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/163.cleardiver
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/164.cleardiver
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/165.len
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/166.index_macr
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/167.index_macr
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/168.index_macr
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/169.index_macr
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/170.regexp
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/171.regexp
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/172.regexp
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/173.substr
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/174.substr
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/175.translit
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/176.translit
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/177.translit
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/178.translit
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/179.patsubst
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/180.patsubst
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/181.patsubst
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/182.patsubst
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/183.patsubst
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/184.format
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/185.format
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/186.format
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/187.format
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/188.incr
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/189.incr
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/190.eval
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/191.eval
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/192.eval
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/193.eval
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/194.eval
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/195.eval
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/196.eval
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/197.platform_m
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/198.platform_m
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/199.platform_m
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/200.syscmd
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/201.syscmd
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/202.esyscmd
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/203.sysval
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/204.sysval
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/205.mkstemp
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/206.mkstemp
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/207.mkstemp
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/208.errprint
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/209.location
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/210.location
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/211.location
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/212.m4exit
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/213.m4exit
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/214.using_froz
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/215.using_froz
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/216.using_froz
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/217.extensions
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/218.other_inco
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/219.other_inco
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/220.improved_e
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/221.improved_f
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/222.improved_f
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/223.improved_f
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/224.improved_f
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/225.improved_f
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/226.improved_f
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/227.improved_f
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/228.improved_f
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/229.improved_f
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/230.improved_f
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/231.improved_f
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/232.improved_f
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/233.improved_f
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/234.improved_f
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/235.improved_c
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/236.improved_c
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/237.improved_m
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/238.improved_m
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/239.improved_c
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/240.improved_c
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/241.improved_c
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/242.improved_f
+Checking <EVIDENCE>/src-OPENAT_ONLY/checks/stackovf.test
+Stack soft limit set to 300K
+Pass
+
+Skipped checks were:
+  <EVIDENCE>/src-OPENAT_ONLY/checks/005.command_li <EVIDENCE>/src-OPENAT_ONLY/checks/006.command_li <EVIDENCE>/src-OPENAT_ONLY/checks/128.changeword <EVIDENCE>/src-OPENAT_ONLY/checks/129.changeword <EVIDENCE>/src-OPENAT_ONLY/checks/130.changeword <EVIDENCE>/src-OPENAT_ONLY/checks/131.changeword <EVIDENCE>/src-OPENAT_ONLY/checks/132.changeword <EVIDENCE>/src-OPENAT_ONLY/checks/133.changeword <EVIDENCE>/src-OPENAT_ONLY/checks/134.changeword
+All checks successful
+make[3]: Leaving directory '<EVIDENCE>/build-OPENAT_ONLY/checks'
+make[2]: Leaving directory '<EVIDENCE>/build-OPENAT_ONLY/checks'
+Making check in po
+make[2]: Entering directory '<EVIDENCE>/build-OPENAT_ONLY/po'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '<EVIDENCE>/build-OPENAT_ONLY/po'
+Making check in tests
+make[2]: Entering directory '<EVIDENCE>/build-OPENAT_ONLY/tests'
+make  check-recursive
+make[3]: Entering directory '<EVIDENCE>/build-OPENAT_ONLY/tests'
+Making check in .
+make[4]: Entering directory '<EVIDENCE>/build-OPENAT_ONLY/tests'
+## ---------------------------------------------------------------------- ##
+## ---------------------------- Gnulib tests ---------------------------- ##
+## Please report test failures in this directory to <bug-gnulib@gnu.org>. ##
+## ---------------------------------------------------------------------- ##
+make  test-accept test-access test-alignasof test-alloca-opt test-arpa_inet-h-c++ test-arpa_inet-h test-array_list test-array_oset test-assert-h-c++ test-assert test-asyncsafe-spin1 test-asyncsafe-spin2 test-avltree_oset test-binary-io test-bind test-bitrotate test-bool-c++ test-bool test-btoc32 test-btowc test-c-ctype test-c-stack test-c-strcasecmp test-c-strcasestr test-c-strncasecmp test-c32isalnum test-c32isalpha test-c32isblank test-c32iscntrl test-c32isdigit test-c32isgraph test-c32islower test-c32isprint test-c32ispunct test-c32isspace test-c32isupper test-c32isxdigit test-c32rtomb test-c32rtomb-w32 test-c32tolower test-c32width test-calloc-gnu test-calloc-posix test-canonicalize-lgpl test-canonicalize test-chdir test-cloexec test-close test-closein test-connect test-creat test-ctype-h-c++ test-ctype-h test-dirent-h-c++ test-dirent-h test-dirfd test-dirname test-dup test-dup2 test-environ test-errno-h-c++ test-errno-h test-error test-execute-main test-execute-child test-execute-script test-fchdir test-fclose test-fcntl-h-c++ test-fcntl-h test-fcntl test-fdopen test-fdopendir test-fflush test-fflush2 test-fgetc test-filenamecat test-float-h-c++ test-float-h test-fopen-gnu test-fopen-safer test-fopen test-fpending test-fpurge test-fputc test-fread test-freadahead test-freading test-free test-freopen test-frexp-nolibm test-frexp test-frexpl-nolibm test-frexpl test-fseek test-fseeko test-fseeko3 test-fseeko4 test-fseterr test-fstat test-fstatat test-ftell test-ftell3 test-ftello test-ftello3 test-ftello4 test-ftruncate test-fwrite test-getcwd-lgpl test-getcwd test-getdtablesize test-getopt-gnu test-getprogname test-getrandom test-gettext-h test-gettimeofday test-dynarray test-scratch-buffer test-hard-locale test-hash test-iconv-h-c++ test-iconv-h test-iconv test-ignore-value test-inet_pton test-intprops test-inttostr test-inttypes-h-c++ test-inttypes-h test-ioctl test-isblank test-isinf test-isnand-nolibm test-isnanf-nolibm test-isnanl-nolibm test-iswblank test-iswctype test-iswdigit test-iswpunct test-iswxdigit test-langinfo-h-c++ test-langinfo-h test-largefile test-limits-h-c++ test-limits-h test-link test-linked_list test-linkedhash_list test-listen test-locale-h-c++ test-locale-h test-localeconv test-localeconv-mt test-localename test-lseek test-lstat test-malloc-gnu test-malloc-posix test-malloca test-math-h-c++ test-math-h test-mbrtoc32 test-mbrtoc32-w32 test-mbrtowc test-mbrtowc-w32 test-mbsinit test-mbslen test-mbsnlen test-mbsstr1 test-mbsstr2 test-mbsstr3 test-memchr test-memchr2 test-memrchr test-memset_explicit test-mkdir test-mkfifo test-nanosleep test-netinet_in-h-c++ test-netinet_in-h test-next-prime test-nl_langinfo1 test-nl_langinfo2 test-nl_langinfo-mt test-once1 test-once2 test-open test-openat test-pathmax test-perror test-perror2 test-pipe test-pipe2 test-posix_spawn-open1 test-posix_spawn-open2 test-posix_spawn-inherit0 test-posix_spawn-inherit1 test-posix_spawn-script test-posix_spawn_file_actions_addchdir test-posix_spawn-chdir test-posix_spawn_file_actions_addclose test-posix_spawn_file_actions_adddup2 test-posix_spawn_file_actions_addopen test-posix_spawn-dup2-stdout test-posix_spawn-dup2-stdin test-posix_spawnp-script test-posix_spawnp-vfork test-printf-frexp test-printf-frexpl test-pselect test-pthread-cond test-pthread-c++ test-pthread test-pthread-mutex test-pthread-mutex-type test-pthread-once1 test-pthread-once2 test-pthread-rwlock test-pthread-thread test-pthread_sigmask1 test-pthread_sigmask2 test-putenv test-quotearg-simple test-raise test-random test-random-mt test-random_r test-rawmemchr test-read-file test-readlink test-realloc-posix test-reallocarray test-regex test-rename test-rmdir test-sched-h-c++ test-sched-h test-select test-select-fd test-select-stdin test-setenv test-setlocale_null test-setlocale_null-mt-one test-setlocale_null-mt-all test-setlocale_null-unlocked test-setlocale1 test-setlocale2 test-setlocale-w32 test-setsockopt test-sigaction test-signal-h-c++ test-signal-h test-signbit test-sigpipe test-sigprocmask test-sigsegv-catch-segv1 test-sigsegv-catch-segv2 test-sigsegv-catch-stackoverflow1 test-sigsegv-catch-stackoverflow2 test-sleep test-snprintf test-sockets test-spawn-h-c++ test-spawn-h test-spawn-pipe-main test-spawn-pipe-child test-spawn-pipe-script test-spin1 test-spin2 test-stat test-stat-time-c++ test-stat-time test-stdarg-h-c++ test-stdckdint-h-c++ test-stdckdint-h test-stddef-h-c++ test-stddef-h test-stdint-h-c++ test-stdint-h test-stdio-h-c++ test-stdio-h test-stdlib-h-c++ test-stdlib-h test-str_endswith test-str_startswith test-strchrnul test-strerror test-strerror_r test-striconv test-string-h-c++ test-string-h test-strncpy test-strnlen test-strsignal test-strstr test-strtod test-strtod1 test-symlink test-sys_ioctl-h-c++ test-sys_ioctl-h test-sys_random-h-c++ test-sys_random-h test-sys_select-h-c++ test-sys_select-h test-sys_socket-h-c++ test-sys_socket-h test-sys_stat-h-c++ test-sys_stat-h test-sys_time-h-c++ test-sys_time-h test-sys_types-h-c++ test-sys_types-h test-sys_uio-h-c++ test-sys_uio-h test-sys_wait-h-c++ test-sys_wait-h test-thread_self test-thread_create test-time-h-c++ test-time-h test-time test-trim test-trunc1 test-trunc2 test-truncl test-uchar-h-c++ test-uchar-h test-unicase-h-c++ test-unicase-h test-uc_tolower test-unictype-h-c++ test-unictype-h test-ctype_alnum test-ctype_alpha test-ctype_blank test-ctype_cntrl test-ctype_digit test-ctype_graph test-ctype_lower test-ctype_print test-ctype_punct test-ctype_space test-ctype_upper test-ctype_xdigit test-uninorm-h-c++ test-uninorm-h test-unistd-h-c++ test-unistd-h test-dup-safer test-unistr-h-c++ test-unistr-h test-u8-mbtoucr test-u8-uctomb test-uniwidth-h-c++ test-uniwidth-h test-uc_width test-uc_width2 test-unsetenv test-vasnprintf test-vasprintf-posix test-vasprintf test-verify test-verror test-version-etc test-wchar-h-c++ test-wchar-h test-wcrtomb test-wcrtomb-w32 test-wctype-h-c++ test-wctype-h test-wctype test-wcwidth test-windows-mutex-type test-windows-recmutex-type test-windows-timedmutex-type test-windows-timedrecmutex-type test-write test-xalloc-die test-xmemdup0 test-xvasprintf libtests.a
+make[5]: Entering directory '<EVIDENCE>/build-OPENAT_ONLY/tests'
+  CC       test-accept.o
+  CC       test-access.o
+  CC       test-alignasof.o
+  CC       test-alloca-opt.o
+  CXX      test-arpa_inet-h-c++.o
+  CC       test-arpa_inet-h.o
+  CC       test-array_list.o
+  CC       test-array_oset.o
+  CXX      test-assert-h-c++.o
+  CXX      test-assert-h-c++2.o
+  CC       test-assert.o
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++.cc:26:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:709:19: warning: The symbol ::pthread_create refers to the system function. Use gnulib::pthread_create instead. [-Wuser-defined-warnings]
+  709 |   return __gthrw_(pthread_create) (__threadid, NULL, __func, __args);
+      |                   ^
+../lib/pthread.h:1112:1: note: from 'diagnose_if' attribute on 'pthread_create':
+ 1112 | _GL_CXXALIASWARN (pthread_create);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++.cc:26:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:715:19: warning: The symbol ::pthread_join refers to the system function. Use gnulib::pthread_join instead. [-Wuser-defined-warnings]
+  715 |   return __gthrw_(pthread_join) (__threadid, __value_ptr);
+      |                   ^
+../lib/pthread.h:1320:1: note: from 'diagnose_if' attribute on 'pthread_join':
+ 1320 | _GL_CXXALIASWARN (pthread_join);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++.cc:26:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:721:19: warning: The symbol ::pthread_detach refers to the system function. Use gnulib::pthread_detach instead. [-Wuser-defined-warnings]
+  721 |   return __gthrw_(pthread_detach) (__threadid);
+      |                   ^
+../lib/pthread.h:1296:1: note: from 'diagnose_if' attribute on 'pthread_detach':
+ 1296 | _GL_CXXALIASWARN (pthread_detach);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++.cc:26:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:733:19: warning: The symbol ::pthread_self refers to the system function. Use gnulib::pthread_self instead. [-Wuser-defined-warnings]
+  733 |   return In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++2.cc:24:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:709:19: warning: The symbol ::pthread_create refers to the system function. Use gnulib::pthread_create instead. [-Wuser-defined-warnings]
+  709 |   return __gthrw_(pthread_create) (__threadid, NULL, __func, __args);
+      |                   ^
+../lib/pthread.h:1112:1: note: from 'diagnose_if' attribute on 'pthread_create':
+ 1112 | _GL_CXXALIASWARN (pthread_create);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+__In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++2.cc:24:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:715:19: warning: The symbol ::pthread_join refers to the system function. Use gnulib::pthread_join instead. [-Wuser-defined-warnings]
+  715 |   return __gthrw_(pthread_join) (__threadid, __value_ptr);
+      |                   ^
+../lib/pthread.h:1320:1: note: from 'diagnose_if' attribute on 'pthread_join':
+ 1320 | _GL_CXXALIASWARN (pthread_join);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from gthrw_(pthread_self) ();
+      |                   ^
+../lib/pthread.h:1248:1: note: from 'diagnose_if' attribute on 'pthread_self':
+ 1248 | _GL_CXXALIASWARN (pthread_self<EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++2.cc):24:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:721:19: warning: The symbol ::pthread_detach refers to the system function. Use gnulib::pthread_detach instead. [-Wuser-defined-warnings]
+  721 |   return __gthrw_(pthread_detach) (__threadid);
+      |                   ^
+../lib/pthread.h:1296:1: note: from 'diagnose_if' attribute on 'pthread_detach':
+ 1296 | _GL_CXXALIASWARN (pthread_detach);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+;
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ONIn file included from _USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::"<EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++2.cc :#24f:
+In file included from u/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostreamn:43c:
+In file included from  /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:"42:
+ In file included from r/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:e43:
+fIn file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iose:46r:
+In file included from s/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h :41t:
+In file included from o/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h :37t:
+In file included from h/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.he:157 :
+sys/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.ht:733:e19:m  warning: fuThe symbol ::pthread_self refers to the system function. Use gnulib::pthread_self instead. [-Wuser-defined-warnings]
+nction.   "733 |   \
+r      | e                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~t
+urn __  g499 | t h rw _ ( p t h r e a d _ se l f )   ( ) ;
+      "| U                  ^
+se " #name../lib/pthread.hs:p1248:a1:c e note: "from 'diagnose_if' attribute on 'pthread_self':
+::" #fun c1248  | _"G Li_nCsXtXeAaLdI.A"SW)A
+      R| N                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(pth../lib/wchar.hr:e665:a19d: _snote: eexpanded from macro '_GL_WARN_ON_USE'l
+f);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  665 |   _../lib/wchar.h_:490a:4t: tnote: rexpanded from macro '_GL_CXXALIASWARN'i
+bute__   490 | ( ( _ __dGiLa_CgXnXoAsLeI_AiSfW_A_R N(_11,  (mfeusnsca,g eG,N UL"IwBa_rNnAiMnEgSP"A)C)E))
+
+|       |                   ^                ~
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                     In file included from  "<EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++.ccU:s26e:
+ In file included from "/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream :43#:
+In file included from n/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostreama:42m:
+eIn file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.hsp:a43c:
+In file included from e/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios :46":
+:In file included from :/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h":41 :
+#In file included from f/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:u37:
+nIn file included from c/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h: 157":
+ in/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.hs:739t:19e: awarning: d.The symbol ::sched_yield refers to the system function. Use gnulib::sched_yield instead. [-Wuser-defined-warnings]"
+)
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  739 |  ../lib/wchar.h :665r:19:e tnote: uexpanded from macro '_GL_WARN_ON_USE'r
+n __gthr  w665 | _ ( s_c_haetd_tyriiebultde)_ _( )(;(
+_      _| d                  ^
+iagnose_if__ (1../lib/sched.h,: 621:m1e:s snote: afrom 'diagnose_if' attribute on 'sched_yield':g
+e, "warnin  g621" | )_)G)L
+      _|                   ^                ~C
+XXALIASWARN (sched_yield);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (In file included from fu<EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++2.ccn:c24:
+,In file included from  /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:n43a:
+mIn file included from e/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostreams:42p:
+aIn file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:739:19: warning: The symbol ::sched_yield refers to the system function. Use gnulib::sched_yield instead. [-Wuser-defined-warnings]
+  739 |   return __gthrw_(sched_yield) ();
+      |                   ^
+../lib/sched.h:621:1: note: from 'diagnose_if' attribute on 'sched_yield':
+  621 | _GL_CXXALIASWARN (sched_yield);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++2.cc:24:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:746:21: warning: The symbol ::pthread_once refers to the system function. Use gnulib::pthread_once instead. [-Wuser-defined-warnings]
+  746 |     return __gthrw_(pthread_once) (__once, __func);
+      |                     ^
+../lib/pthread.h:1378:1: note: from 'diagnose_if' attribute on 'pthread_once':
+ 1378 | _GL_CXXALIASWARN (pthread_once);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+ce)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++2.cc:24:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:779:14: warning: The symbol ::pthread_mutex_init refers to the system function. Use gnulib::pthread_mutex_init instead. [-Wuser-defined-warnings]
+  779 |     __gthrw_(pthread_mutex_init) (__mutex, NULL);
+      |              ^
+../lib/pthread.h:1414:1: note: from 'diagnose_if' attribute on 'pthread_mutex_init':
+ 1414 | _GL_CXXALIASWARN (pthread_mutex_init);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")../lib/wchar.h
+      :| 497:                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~5
+: note: expanded from macro '_GL_CXXALIASWARN_2'
+../lib/wchar.h:665:19:   497 | note:   expanded from macro '_GL_WARN_ON_USE'
+ _GL_WARN  _665O | N _ U_S_Ea t(tfruinbcu,t e_\_
+       (| (    ^~~~~~~~~~~~~~~~~~~~~~~~_
+_diagn  o498s | e _ i f _ _   ( 1 ,   m e s sa g e ,  " w a rn"iTnhge" )s)y)m
+      b| o                  ^                ~
+l ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++.cc:26:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:746:21: warning: The symbol ::pthread_once refers to the system function. Use gnulib::pthread_once instead. [-Wuser-defined-warnings]
+  746 |     return __gthrw_(pthread_once) (__once, __func);
+      |                     ^
+../lib/pthread.h:1378:1: note: from 'diagnose_if' attribute on 'pthread_once':
+ 1378 | _GL_CXXALIASWARN (pthread_once);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++2.cc:24:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:786:21: warning: The symbol ::pthread_mutex_destroy refers to the system function. Use gnulib::pthread_mutex_destroy instead. [-Wuser-defined-warnings]
+  786 |     return __gthrw_(pthread_mutex_destroy) (__mutex);
+      |                     ^
+../lib/pthread.h:1734:1: note: from 'diagnose_if' attribute on 'pthread_mutex_destroy':
+ 1734 | _GL_CXXALIASWARN (pthread_mutex_destroy);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+:In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++2.cc:24:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:795:21: warning: The symbol ::pthread_mutex_lock refers to the system function. Use gnulib::pthread_mutex_lock instead. [-Wuser-defined-warnings]
+  795 |     return __gthrw_(pthread_mutex_lock) (__mutex);
+      |                     ^
+../lib/pthread.h:1622:1: note: from 'diagnose_if' attribute on 'pthread_mutex_lock':
+ 1622 | _GL_CXXALIASWARN (pthread_mutex_lock);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+4:In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++2.cc:24:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:804:21: warning: The symbol ::pthread_mutex_trylock refers to the system function. Use gnulib::pthread_mutex_trylock instead. [-Wuser-defined-warnings]
+  804 |     return __gthrw_(pthread_mutex_trylock) (__mutex);
+      |                     ^
+../lib/pthread.h:1648:1: note: from 'diagnose_if' attribute on 'pthread_mutex_trylock':
+ 1648 | _GL_CXXALIASWARN (pthread_mutex_trylock);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func "   CC       test-asyncsafe-spin1.o
+refers to the sy note: expanded from macro '_GL_CXXALIASWARN_1'
+stem function. "   492\ |
+       |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+_GL_CXX  A499L | I A S W A R N _ 2    ( f u n c ,   n a m e"sUpsaec e")
+      #| n   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~a
+mespace ":../lib/wchar.h::"497 :#5:f unote: nexpanded from macro '_GL_CXXALIASWARN_2'c
+ " ins  t497e | a d . " )_
+G      | L                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~_
+WARN_O../lib/wchar.hN:_665:U19:S Enote:  expanded from macro '_GL_WARN_ON_USE'(
+func, \
+        | 665 |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  __att  r498 | ib u t e _ _   (( _ _ d i a g n o se _ i f _ _" T(1h,e  mseysmsbaogle,  :":w"a r#nfiunngc" )") )r
+      e| f                  ^                ~
+ers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++2.cc:24:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:815:21: warning: The symbol ::pthread_mutex_timedlock refers to the system function. Use gnulib::pthread_mutex_timedlock instead. [-Wuser-defined-warnings]
+  815 |     return __gthrw_(pthread_mutex_timedlock) (__mutex, __abs_timeout);
+      |                     ^
+../lib/pthread.h:1682:1: note: from 'diagnose_if' attribute on 'pthread_mutex_timedlock':
+ 1682 | _GL_CXXALIASWARN (pthread_mutex_timedlock);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++.cc:26:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:779:14: warning: The symbol ::pthread_mutex_init refers to the system function. Use gnulib::pthread_mutex_init instead. [-Wuser-defined-warnings]
+  779 |     __gthrw_(pthread_mutex_init) (__mutex, NULL);
+      |              ^
+../lib/pthread.h:1414:1: note: from 'diagnose_if' attribute on 'pthread_mutex_init':
+ 1414 | _GL_CXXALIASWARN (pthread_muIn file included from t<EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++2.cce:24x:
+_In file included from i/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:n43i:
+tIn file included from )/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream;:42
+:
+      In file included from | /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~:
+43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from ../lib/wchar.h/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h::49037::
+4In file included from : /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:note: 157:
+expanded from macro '_GL_CXXALIASWARN'
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:825:21:   490 | warning:  The symbol ::pthread_mutex_unlock refers to the system function. Use gnulib::pthread_mutex_unlock instead. [-Wuser-defined-warnings]
+ _GL_CX  X825A | L I A S WrAeRtNu_r1n  (_f_ugntch,r wG_N(UpLtIhBr_eNaAdM_EmSuPtAeCxE_)u
+      n| l   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~o
+ck) (../lib/wchar.h_:_492m:4u:t enote: xexpanded from macro '_GL_CXXALIASWARN_1')
+;
+      |                     ^
+  492 |    _GL../lib/pthread.h_:C1708:X1X: ALnote: Ifrom 'diagnose_if' attribute on 'pthread_mutex_unlock':A
+SWARN_2 ( f1708u | n_cG,L _nCaXmXeAsLpIaAcSeW)A
+R      N|     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(
+pth../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_rON_UeSaEd _(mfuutnecx,_ u\n
+      l| o    ^~~~~~~~~~~~~~~~~~~~~~~~
+ck);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+498 |       ../lib/wchar.h : 490 : 4 :   note:  expanded from macro '_GL_CXXALIASWARN'
+      "  T490h | e   s _yGmbol ::" #funcL _"C XrXeAfLeIrAsS WtAo RtNh_e1  s(yfsutnecm,  fGuNnUcLtIiBo_nN.AM E"S P\A
+C      | E)                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+  In file included from 499<EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++2.cc:24:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:899:19: warning: The symbol ::pthread_cond_broadcast refers to the system function. Use gnulib::pthread_cond_broadcast instead. [-Wuser-defined-warnings]
+  899 |   return __gthrw_(pthread_cond_broadcast) (__cond);
+      |                   ^
+../lib/pthread.h:2260:1: note: from 'diagnose_if' attribute on 'pthread_cond_broadcast':
+ 2260 | _GL_CXXALIASWARN (pthread_cond_broadcast);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+ |  In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++2.cc:24:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:905:19: warning: The symbol ::pthread_cond_signal refers to the system function. Use gnulib::pthread_cond_signal instead. [-Wuser-defined-warnings]
+  905 |   return __gthrw_(pthread_cond_signal) (__cond);
+      |                   ^
+../lib/pthread.h:2234:1: note: from 'diagnose_if' attribute on 'pthread_cond_signal':
+ 2234 | _GL_CXXALIASWARN (pthread_cond_signal);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+ In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++2.cc:24:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:911:19: warning: The symbol ::pthread_cond_wait refers to the system function. Use gnulib::pthread_cond_wait instead. [-Wuser-defined-warnings]
+  911 |   return __gthrw_(pthread_cond_wait) (__cond, __mutex);
+      |                   ^
+../lib/pthread.h:2170:1: note: from 'diagnose_if' attribute on 'pthread_cond_wait':
+ 2170 | _GL_CXXALIASWARN (pthread_cond_wait);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+  In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++2.cc:24:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:918:19: warning: The symbol ::pthread_cond_timedwait refers to the system function. Use gnulib::pthread_cond_timedwait instead. [-Wuser-defined-warnings]
+  918 |   return __gthrw_(pthread_cond_timedwait) (__cond, __mutex, __abs_timeout);
+      |                   ^
+../lib/pthread.h:2208:1: note: from 'diagnose_if' attribute on 'pthread_cond_timedwait':
+ 2208 | _GL_CXXALIASWARN (pthread_cond_timedwait);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. "     \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+  "UIn file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++2.cc:24:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:931:19: warning: The symbol ::pthread_cond_destroy refers to the system function. Use gnulib::pthread_cond_destroy instead. [-Wuser-defined-warnings]
+  931 |   return __gthrw_(pthread_cond_destroy) (__cond);
+      |                   ^
+../lib/pthread.h:2286:1: note: from 'diagnose_if' attribute on 'pthread_cond_destroy':
+ 2286 | _GL_CXXALIASWARN (pthread_cond_destroy);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  se " #namespace "::" #fu498n | c  "   i ns t e a d . " )
+        |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     "The symbol :../lib/wchar.h::"665: 19#:f unote: ncexpanded from macro '_GL_WARN_ON_USE'
+" refers to   665t | h e  _s_yastttermi bfuutnec_t_i o(n(._ _d"i a\g
+n      o| s                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e
+_if__ (  1499, |    m e s s a g e ,   " w a r n in g " ) ) )"
+U      s| e                  ^                ~
+" #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++.cc:26:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:786:21: warning: The symbol ::pthread_mutex_destroy refers to the system function. Use gnulib::pthread_mutex_destroy instead. [-Wuser-defined-warnings]
+  786 |     return __gthrw_(pthread_mutex_destroy) (__mutex);
+      |                     ^
+../lib/pthread.h:1734:1: note: from 'diagnose_if' attribute on 'pthread_mutex_destroy':
+ 1734 | _GL_CXXALIASWARN (pthread_mutex_destroy);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  CC       test-asyncsafe-spin2.o
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++.cc:26:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:795:21: warning: The symbol ::pthread_mutex_lock refers to the system function. Use gnulib::pthread_mutex_lock instead. [-Wuser-defined-warnings]
+  795 |     return __gthrw_(pthread_mutex_lock) (__mutex);
+      |                     ^
+../lib/pthread.h:1622:1: note: from 'diagnose_if' attribute on 'pthread_mutex_lock':
+ 1622 | _GL_CXXALIASWARN (pthread_mutex_lock);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++.cc:26:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:804:21: warning: The symbol ::pthread_mutex_trylock refers to the system function. Use gnulib::pthread_mutex_trylock instead. [-Wuser-defined-warnings]
+  804 |     return __gthrw_(pthread_mutex_trylock) (__mutex);
+      |                     ^
+../lib/pthread.h:1648:1: note: from 'diagnose_if' attribute on 'pthread_mutex_trylock':
+ 1648 | _GL_CXXALIASWARN (pthread_mutex_trylock);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++.cc:26:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:815:21: warning: The symbol ::pthread_mutex_timedlock refers to the system function. Use gnulib::pthread_mutex_timedlock instead. [-Wuser-defined-warnings]
+  815 |     return __gthrw_(pthread_mutex_timedlock) (__mutex, __abs_timeout);
+      |                     ^
+../lib/pthread.h:1682:1: note: from 'diagnose_if' attribute on 'pthread_mutex_timedlock':
+ 1682 | _GL_CXXALIASWARN (pthread_mutex_timedlock);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++.cc:26:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:825:21: warning: The symbol ::pthread_mutex_unlock refers to the system function. Use gnulib::pthread_mutex_unlock instead. [-Wuser-defined-warnings]
+  825 |     return __gthrw_(pthread_mutex_unlock) (__mutex);
+      |                     ^
+../lib/pthread.h:1708:1: note: from 'diagnose_if' attribute on 'pthread_mutex_unlock':
+ 1708 | _GL_CXXALIASWARN (pthread_mutex_unlock);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++.cc:26:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:899:19: warning: The symbol ::pthread_cond_broadcast refers to the system function. Use gnulib::pthread_cond_broadcast instead. [-Wuser-defined-warnings]
+  899 |   return __gthrw_(pthread_cond_broadcast) (__cond);
+      |                   ^
+../lib/pthread.h:2260:1: note: from 'diagnose_if' attribute on 'pthread_cond_broadcast':
+ 2260 | _GL_CXXALIASWARN (pthread_cond_broadcast);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++.cc:26:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:905:19: warning: The symbol ::pthread_cond_signal refers to the system function. Use gnulib::pthread_cond_signal instead. [-Wuser-defined-warnings]
+  905 |   return __gthrw_(pthread_cond_signal) (__cond);
+      |                   ^
+../lib/pthread.h:2234:1: note: from 'diagnose_if' attribute on 'pthread_cond_signal':
+ 2234 | _GL_CXXALIASWARN (pthread_cond_signal);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++.cc:26:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:911:19: warning: The symbol ::pthread_cond_wait refers to the system function. Use gnulib::pthread_cond_wait instead. [-Wuser-defined-warnings]
+  911 |   return __gthrw_(pthread_cond_wait) (__cond, __mutex);
+      |                   ^
+../lib/pthread.h:2170:1: note: from 'diagnose_if' attribute on 'pthread_cond_wait':
+ 2170 | _GL_CXXALIASWARN (pthread_cond_wait);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++.cc:26:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:918:19: warning: The symbol ::pthread_cond_timedwait refers to the system function. Use gnulib::pthread_cond_timedwait instead. [-Wuser-defined-warnings]
+  918 |   return __gthrw_(pthread_cond_timedwait) (__cond, __mutex, __abs_timeout);
+      |                   ^
+../lib/pthread.h:2208:1: note: from 'diagnose_if' attribute on 'pthread_cond_timedwait':
+ 2208 | _GL_CXXALIASWARN (pthread_cond_timedwait);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-assert-h-c++.cc:26:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/iostream:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ostream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ostream.h:43:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:931:19: warning: The symbol ::pthread_cond_destroy refers to the system function. Use gnulib::pthread_cond_destroy instead. [-Wuser-defined-warnings]
+  931 |   return __gthrw_(pthread_cond_destroy) (__cond);
+      |                   ^
+../lib/pthread.h:2286:1: note: from 'diagnose_if' attribute on 'pthread_cond_destroy':
+ 2286 | _GL_CXXALIASWARN (pthread_cond_destroy);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+  CC       test-avltree_oset.o
+  CC       test-binary-io.o
+  CC       test-bind.o
+  CC       test-bitrotate.o
+  CXX      test-bool-c++.o
+  CXX      test-bool-c++2.o
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-bool-c++2.cc:22:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/cstdbool:50:6: warning: "<cstdbool> is deprecated in C++17, remove the #include" [-W#warnings]
+   50 | #    warning "<cstdbool> is deprecated in C++17, remove the #include"
+      |      ^
+1 warning generated.
+  CC       test-bool.o
+  CC       test-btoc32.o
+  CC       test-btowc.o
+  CC       test-c-ctype.o
+17 warnings generated.
+  CC       test-c-stack.o
+  CC       test-c-strcasecmp.o
+17 warnings generated.
+  CC       test-c-strcasestr.o
+  CC       test-c-strncasecmp.o
+  CC       test-c32isalnum.o
+  CC       test-c32isalpha.o
+  CC       test-c32isblank.o
+  CC       test-c32iscntrl.o
+  CC       test-c32isdigit.o
+  CC       test-c32isgraph.o
+  CC       test-c32islower.o
+  CC       test-c32isprint.o
+  CC       test-c32ispunct.o
+  CC       test-c32isspace.o
+  CC       test-c32isupper.o
+  CC       test-c32isxdigit.o
+  CC       test-c32rtomb.o
+  CC       test-c32rtomb-w32.o
+  CC       test-c32tolower.o
+  CC       test-c32width.o
+  CC       test-calloc-gnu.o
+  CC       test-calloc-posix.o
+  CC       test-canonicalize-lgpl.o
+  CC       test-canonicalize.o
+  CC       test-chdir.o
+  CC       test-cloexec.o
+  CC       test-close.o
+  CC       test-closein.o
+  CC       test-connect.o
+  CC       test-creat.o
+  CXX      test-ctype-h-c++.o
+  CXX      test-ctype-h-c++2.o
+  CC       test-ctype-h.o
+  CXX      test-dirent-h-c++.o
+  CC       test-dirent-h.o
+  CC       test-dirfd.o
+  CC       test-dirname.o
+  CC       test-dup.o
+  CC       test-dup2.o
+  CC       test-environ.o
+  CXX      test-errno-h-c++.o
+  CXX      test-errno-h-c++2.o
+  CC       test-errno-h.o
+  CC       test-error.o
+  CC       test-execute-main.o
+  CC       test-execute-child.o
+  CC       test_execute_script-test-execute-script.o
+  CC       test-fchdir.o
+  CC       test-fclose.o
+  CXXLD    test-fcntl-h-c++
+  CC       test-fcntl-h.o
+  CC       test-fcntl.o
+  CC       test-fdopen.o
+  CC       test-fdopendir.o
+  CC       test-fflush.o
+  CC       test-fflush2.o
+  CC       test-fgetc.o
+  CC       test-filenamecat.o
+  CXX      test-float-h-c++.o
+  CXX      test-float-h-c++2.o
+  CCLD     test-float-h
+  CC       test-fopen-gnu.o
+  CC       test-fopen-safer.o
+  CC       test-fopen.o
+  CC       test-fpending.o
+  CC       test-fpurge.o
+  CC       test-fputc.o
+  CC       test-fread.o
+  CC       test-freadahead.o
+  CC       test-freading.o
+  CC       test-free.o
+  CC       test-freopen.o
+  CC       test-frexp.o
+  CC       randomd.o
+  CC       test-frexpl.o
+  CC       randoml.o
+  CC       test-fseek.o
+  CC       test-fseeko.o
+  CC       test-fseeko3.o
+  CC       test-fseeko4.o
+  CC       test-fseterr.o
+  CC       test-fstat.o
+  CC       test-fstatat.o
+  CC       test-ftell.o
+  CC       test-ftell3.o
+  CC       test-ftello.o
+  CC       test-ftello3.o
+  CC       test-ftello4.o
+  CC       test-ftruncate.o
+  CC       test-fwrite.o
+  CC       test-getcwd-lgpl.o
+  CC       test-getcwd.o
+  CC       test-getdtablesize.o
+  CC       test-getopt-gnu.o
+  CC       test-getprogname.o
+  CC       test-getrandom.o
+  CC       test-gettext-h.o
+  CC       test-gettimeofday.o
+  CC       test-dynarray.o
+  CC       test-scratch-buffer.o
+  CC       test-hard-locale.o
+  CC       test-hash.o
+  CXX      test-iconv-h-c++.o
+  CC       test-iconv-h.o
+  CC       test-iconv.o
+  CC       test-ignore-value.o
+  CC       test-inet_pton.o
+  CC       test-intprops.o
+  CC       test-inttostr.o
+  CXX      test-inttypes-h-c++.o
+  CXX      test-inttypes-h-c++2.o
+  CC       test-inttypes-h.o
+  CC       test-ioctl.o
+  CC       test-isblank.o
+  CC       test-isinf.o
+  CC       test-isnand-nolibm.o
+  CC       test-isnanf-nolibm.o
+  CC       test-isnanl-nolibm.o
+  CC       test-iswblank.o
+  CC       test-iswctype.o
+  CC       test-iswdigit.o
+  CC       test-iswpunct.o
+  CC       test-iswxdigit.o
+  CXX      test-langinfo-h-c++.o
+  CC       test-langinfo-h.o
+  CC       test-largefile.o
+  CXX      test-limits-h-c++.o
+  CXX      test-limits-h-c++2.o
+  CC       test-limits-h.o
+  CC       test-link.o
+  CC       test-linked_list.o
+  CC       test-linkedhash_list.o
+  CC       test-listen.o
+  CXX      test-locale-h-c++.o
+  CXX      test-locale-h-c++2.o
+  CC       test-locale-h.o
+  CC       test-localeconv.o
+  CC       test-localeconv-mt.o
+  CC       test-localename.o
+  CC       test-lseek.o
+  CC       test-lstat.o
+  CC       test-malloc-gnu.o
+  CC       test-malloc-posix.o
+  CC       test-malloca.o
+  CXX      test-math-h-c++.o
+  CXX      test-math-h-c++2.o
+  CC       test-math-h.o
+  CC       test-mbrtoc32.o
+  CC       test-mbrtoc32-w32.o
+  CC       test-mbrtowc.o
+  CC       test-mbrtowc-w32.o
+  CC       test-mbsinit.o
+  CC       test-mbslen.o
+  CC       test-mbsnlen.o
+  CC       test-mbsstr1.o
+  CC       test-mbsstr2.o
+  CC       test-mbsstr3.o
+  CC       test-memchr.o
+  CC       test-memchr2.o
+  CC       test-memrchr.o
+  CC       test-memset_explicit.o
+  CC       test-mkdir.o
+  CC       test-mkfifo.o
+  CC       test-nanosleep.o
+  CXX      test-netinet_in-h-c++.o
+  CC       test-netinet_in-h.o
+  CC       test-next-prime.o
+  CC       test-nl_langinfo1.o
+  CC       test-nl_langinfo2.o
+  CC       test-nl_langinfo-mt.o
+  CC       test-once.o
+  CC       test-open.o
+  CC       test-openat.o
+  CC       test-pathmax.o
+  CC       test-perror.o
+  CC       test-perror2.o
+  CC       test-pipe.o
+  CC       test-pipe2.o
+  CC       test-posix_spawn-open1.o
+  CC       test-posix_spawn-open2.o
+  CC       test-posix_spawn-inherit0.o
+  CC       test-posix_spawn-inherit1.o
+  CC       test_posix_spawn_script-test-posix_spawn-script.o
+  CC       test-posix_spawn_file_actions_addchdir.o
+  CC       test-posix_spawn-chdir.o
+  CC       test-posix_spawn_file_actions_addclose.o
+  CC       test-posix_spawn_file_actions_adddup2.o
+  CC       test-posix_spawn_file_actions_addopen.o
+  CC       test-posix_spawn-dup2-stdout.o
+  CC       test-posix_spawn-dup2-stdin.o
+  CC       test_posix_spawnp_script-test-posix_spawnp-script.o
+  CC       test-posix_spawnp-vfork.o
+  CC       test-printf-frexp.o
+  CC       test-printf-frexpl.o
+  CC       test-pselect.o
+  CC       test-pthread-cond.o
+  CXX      test-pthread-c++.o
+  CC       test-pthread.o
+  CC       test-pthread-mutex.o
+  CC       test-pthread-mutex-type.o
+  CC       test-pthread-once1.o
+  CC       test-pthread-once2.o
+  CC       test-pthread-rwlock.o
+  CC       test-pthread-thread.o
+  CC       test-pthread_sigmask1.o
+  CC       test-pthread_sigmask2.o
+  CC       test-putenv.o
+  CC       test-quotearg-simple.o
+  CC       test-raise.o
+  CC       test-random.o
+  CC       test-random-mt.o
+  CC       test-random_r.o
+  CC       test-rawmemchr.o
+  CC       test-read-file.o
+  CC       test-readlink.o
+  CC       test-realloc-posix.o
+  CC       test-reallocarray.o
+  CC       test-regex.o
+  CC       test-rename.o
+  CC       test-rmdir.o
+  CXX      test-sched-h-c++.o
+  CC       test-sched-h.o
+  CC       test-select.o
+  CC       test-select-fd.o
+  CC       test-select-stdin.o
+  CC       test-setenv.o
+  CC       test-setlocale_null.o
+  CC       test-setlocale_null-mt-one.o
+  CC       test-setlocale_null-mt-all.o
+  CC       test-setlocale_null-unlocked.o
+  CC       test-setlocale1.o
+  CC       test-setlocale2.o
+  CC       test-setlocale-w32.o
+  CC       test-setsockopt.o
+  CC       test-sigaction.o
+  CXX      test-signal-h-c++.o
+  CXX      test-signal-h-c++2.o
+  CC       test-signal-h.o
+  CC       test-signbit.o
+  CC       test-sigpipe.o
+  CC       test-sigprocmask.o
+  CC       test-sigsegv-catch-segv1.o
+  CC       test-sigsegv-catch-segv2.o
+  CC       test-sigsegv-catch-stackoverflow1.o
+  CC       test-sigsegv-catch-stackoverflow2.o
+  CC       test-sleep.o
+  CC       test-snprintf.o
+  CC       test-sockets.o
+  CXX      test-spawn-h-c++.o
+  CC       test-spawn-h.o
+  CC       test-spawn-pipe-main.o
+  CC       test-spawn-pipe-child.o
+  CC       test_spawn_pipe_script-test-spawn-pipe-script.o
+  CC       test-spin1.o
+  CC       test-spin2.o
+  CC       test-stat.o
+  CXX      test-stat-time-c++.o
+  CC       test-stat-time.o
+  CXX      test-stdarg-h-c++.o
+  CXX      test-stdarg-h-c++2.o
+  CXX      test-stdckdint-h-c++.o
+  CC       test-stdckdint-h.o
+  CXX      test-stddef-h-c++.o
+  CXX      test-stddef-h-c++2.o
+  CXX      test-stddef-h-c++3.o
+  CC       test-stddef-h.o
+  CXX      test-stdint-h-c++.o
+  CXX      test-stdint-h-c++2.o
+  CC       test-stdint-h.o
+  CXX      test-stdio-h-c++.o
+  CXX      test-stdio-h-c++2.o
+  CC       test-stdio-h.o
+  CXX      test-stdlib-h-c++.o
+  CXX      test-stdlib-h-c++2.o
+  CC       test-stdlib-h.o
+  CC       test-str_endswith.o
+  CC       test-str_startswith.o
+  CC       test-strchrnul.o
+  CC       test-strerror.o
+  CC       test-strerror_r.o
+  CC       test-striconv.o
+  CXX      test-string-h-c++.o
+  CXX      test-string-h-c++2.o
+  CC       test-string-h.o
+  CC       test-strncpy.o
+  CC       test-strnlen.o
+  CC       test-strsignal.o
+  CC       test-strstr.o
+  CC       test-strtod.o
+  CC       test-strtod1.o
+  CC       test-symlink.o
+  CXX      test-sys_ioctl-h-c++.o
+  CC       test-sys_ioctl-h.o
+  CXX      test-sys_random-h-c++.o
+  CC       test-sys_random-h.o
+  CXX      test-sys_select-h-c++.o
+  CC       test-sys_select-h.o
+  CXX      test-sys_socket-h-c++.o
+  CC       test-sys_socket-h.o
+  CXX      test-sys_stat-h-c++.o
+  CC       test-sys_stat-h.o
+  CXX      test-sys_time-h-c++.o
+  CC       test-sys_time-h.o
+  CXX      test-sys_types-h-c++.o
+  CC       test-sys_types-h.o
+  CXX      test-sys_uio-h-c++.o
+  CC       test-sys_uio-h.o
+  CXX      test-sys_wait-h-c++.o
+  CC       test-sys_wait-h.o
+  CC       test-thread_self.o
+  CC       test-thread_create.o
+  CXX      test-time-h-c++.o
+  CXX      test-time-h-c++2.o
+  CC       test-time-h.o
+  CC       test-time.o
+  CC       test-trim.o
+  CC       test-trunc1.o
+  CC       test-trunc2.o
+  CC       test-truncl.o
+  CXX      test-uchar-h-c++.o
+  CXX      test-uchar-h-c++2.o
+  CC       test-uchar-h.o
+  CXX      test-unistd-h-c++.o
+  CC       test-unistd-h.o
+  CC       test-dup-safer.o
+  CC       test-unsetenv.o
+  CC       test-vasnprintf.o
+  CC       test-vasprintf-posix.o
+  CC       test-vasprintf.o
+  CC       test-verify.o
+  CC       test-verror.o
+  CC       test-version-etc.o
+  CXX      test-wchar-h-c++.o
+  CXX      test-wchar-h-c++2.o
+  CXX      test-wchar-h-c++3.o
+  CC       test-wchar-h.o
+  CC       test-wcrtomb.o
+  CC       test-wcrtomb-w32.o
+  CXX      test-wctype-h-c++.o
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-wchar-h-c++3.cc:22:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/sstream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/istream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:709:19: warning: The symbol ::pthread_create refers to the system function. Use gnulib::pthread_create instead. [-Wuser-defined-warnings]
+  709 |   return __gthrw_(pthread_create) (__threadid, NULL, __func, __args);
+      |                   ^
+../lib/pthread.h:1112:1: note: from 'diagnose_if' attribute on 'pthread_create':
+ 1112 | _GL_CXXALIASWARN (pthread_create);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-wchar-h-c++3.cc:22:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/sstream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/istream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:715:19: warning: The symbol ::pthread_join refers to the system function. Use gnulib::pthread_join instead. [-Wuser-defined-warnings]
+  715 |   return __gthrw_(pthread_join) (__threadid, __value_ptr);
+      |                   ^
+../lib/pthread.h:1320:1: note: from 'diagnose_if' attribute on 'pthread_join':
+ 1320 | _GL_CXXALIASWARN (pthread_join);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-wchar-h-c++3.cc:22:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/sstream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/istream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:721:19: warning: The symbol ::pthread_detach refers to the system function. Use gnulib::pthread_detach instead. [-Wuser-defined-warnings]
+  721 |   return __gthrw_(pthread_detach) (__threadid);
+      |                   ^
+../lib/pthread.h:1296:1: note: from 'diagnose_if' attribute on 'pthread_detach':
+ 1296 | _GL_CXXALIASWARN (pthread_detach);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-wchar-h-c++3.cc:22:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/sstream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/istream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:733:19: warning: The symbol ::pthread_self refers to the system function. Use gnulib::pthread_self instead. [-Wuser-defined-warnings]
+  733 |   return __gthrw_(pthread_self) ();
+      |                   ^
+../lib/pthread.h:1248:1: note: from 'diagnose_if' attribute on 'pthread_self':
+ 1248 | _GL_CXXALIASWARN (pthread_self);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |             CXX      test-wctype-h-c++2.o
+           "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-wchar-h-c++3.cc:22:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/sstream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/istream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:739:19: warning: The symbol ::sched_yield refers to the system function. Use gnulib::sched_yield instead. [-Wuser-defined-warnings]
+  739 |   return __gthrw_(sched_yield) ();
+      |                   ^
+../lib/sched.h:621:1: note: from 'diagnose_if' attribute on 'sched_yield':
+  621 | _GL_CXXALIASWARN (sched_yield);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-wchar-h-c++3.cc:22:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/sstream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/istream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:746:21: warning: The symbol ::pthread_once refers to the system function. Use gnulib::pthread_once instead. [-Wuser-defined-warnings]
+  746 |     return __gthrw_(pthread_once) (__once, __func);
+      |                     ^
+../lib/pthread.h:1378:1: note: from 'diagnose_if' attribute on 'pthread_once':
+ 1378 | _GL_CXXALIASWARN (pthread_once);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-wchar-h-c++3.cc:22:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/sstream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/istream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:779:14: warning: The symbol ::pthread_mutex_init refers to the system function. Use gnulib::pthread_mutex_init instead. [-Wuser-defined-warnings]
+  779 |     __gthrw_(pthread_mutex_init) (__mutex, NULL);
+      |              ^
+../lib/pthread.h:1414:1: note: from 'diagnose_if' attribute on 'pthread_mutex_init':
+ 1414 | _GL_CXXALIASWARN (pthread_mutex_init);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-wchar-h-c++3.cc:22:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/sstream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/istream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:786:21: warning: The symbol ::pthread_mutex_destroy refers to the system function. Use gnulib::pthread_mutex_destroy instead. [-Wuser-defined-warnings]
+  786 |     return __gthrw_(pthread_mutex_destroy) (__mutex);
+      |                     ^
+../lib/pthread.h:1734:1: note: from 'diagnose_if' attribute on 'pthread_mutex_destroy':
+ 1734 | _GL_CXXALIASWARN (pthread_mutex_destroy);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-wchar-h-c++3.cc:22:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/sstream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/istream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:795:21: warning: The symbol ::pthread_mutex_lock refers to the system function. Use gnulib::pthread_mutex_lock instead. [-Wuser-defined-warnings]
+  795 |     return __gthrw_(pthread_mutex_lock) (__mutex);
+      |                     ^
+../lib/pthread.h:1622:1: note: from 'diagnose_if' attribute on 'pthread_mutex_lock':
+ 1622 | _GL_CXXALIASWARN (pthread_mutex_lock);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-wchar-h-c++3.cc:22:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/sstream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/istream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:804:21: warning: The symbol ::pthread_mutex_trylock refers to the system function. Use gnulib::pthread_mutex_trylock instead. [-Wuser-defined-warnings]
+  804 |     return __gthrw_(pthread_mutex_trylock) (__mutex);
+      |                     ^
+../lib/pthread.h:1648:1: note: from 'diagnose_if' attribute on 'pthread_mutex_trylock':
+ 1648 | _GL_CXXALIASWARN (pthread_mutex_trylock);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-wchar-h-c++3.cc:22:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/sstream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/istream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:815:21: warning: The symbol ::pthread_mutex_timedlock refers to the system function. Use gnulib::pthread_mutex_timedlock instead. [-Wuser-defined-warnings]
+  815 |     return __gthrw_(pthread_mutex_timedlock) (__mutex, __abs_timeout);
+      |                     ^
+../lib/pthread.h:1682:1: note: from 'diagnose_if' attribute on 'pthread_mutex_timedlock':
+ 1682 | _GL_CXXALIASWARN (pthread_mutex_timedlock);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-wchar-h-c++3.cc:22:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/sstream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/istream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:825:21: warning: The symbol ::pthread_mutex_unlock refers to the system function. Use gnulib::pthread_mutex_unlock instead. [-Wuser-defined-warnings]
+  825 |     return __gthrw_(pthread_mutex_unlock) (__mutex);
+      |                     ^
+../lib/pthread.h:1708:1: note: from 'diagnose_if' attribute on 'pthread_mutex_unlock':
+ 1708 | _GL_CXXALIASWARN (pthread_mutex_unlock);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-wchar-h-c++3.cc:22:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/sstream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/istream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:899:19: warning: The symbol ::pthread_cond_broadcast refers to the system function. Use gnulib::pthread_cond_broadcast instead. [-Wuser-defined-warnings]
+  899 |   return __gthrw_(pthread_cond_broadcast) (__cond);
+      |                   ^
+../lib/pthread.h:2260:1: note: from 'diagnose_if' attribute on 'pthread_cond_broadcast':
+ 2260 | _GL_CXXALIASWARN (pthread_cond_broadcast);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-wchar-h-c++3.cc:22:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/sstream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/istream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:905:19: warning: The symbol ::pthread_cond_signal refers to the system function. Use gnulib::pthread_cond_signal instead. [-Wuser-defined-warnings]
+  905 |   return __gthrw_(pthread_cond_signal) (__cond);
+      |                   ^
+../lib/pthread.h:2234:1: note: from 'diagnose_if' attribute on 'pthread_cond_signal':
+ 2234 | _GL_CXXALIASWARN (pthread_cond_signal);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-wchar-h-c++3.cc:22:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/sstream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/istream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:911:19: warning: The symbol ::pthread_cond_wait refers to the system function. Use gnulib::pthread_cond_wait instead. [-Wuser-defined-warnings]
+  911 |   return __gthrw_(pthread_cond_wait) (__cond, __mutex);
+      |                   ^
+../lib/pthread.h:2170:1: note: from 'diagnose_if' attribute on 'pthread_cond_wait':
+ 2170 | _GL_CXXALIASWARN (pthread_cond_wait);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-wchar-h-c++3.cc:22:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/sstream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/istream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:918:19: warning: The symbol ::pthread_cond_timedwait refers to the system function. Use gnulib::pthread_cond_timedwait instead. [-Wuser-defined-warnings]
+  918 |   return __gthrw_(pthread_cond_timedwait) (__cond, __mutex, __abs_timeout);
+      |                   ^
+../lib/pthread.h:2208:1: note: from 'diagnose_if' attribute on 'pthread_cond_timedwait':
+ 2208 | _GL_CXXALIASWARN (pthread_cond_timedwait);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+In file included from <EVIDENCE>/src-OPENAT_ONLY/tests/test-wchar-h-c++3.cc:22:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/sstream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/istream:42:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ios:46:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/bits/ios_base.h:41:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/c++/15/ext/atomicity.h:37:
+In file included from /usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr.h:157:
+/usr/lib/gcc/aarch64-linux-gnu/15/../../../../include/aarch64-linux-gnu/c++/15/bits/gthr-default.h:931:19: warning: The symbol ::pthread_cond_destroy refers to the system function. Use gnulib::pthread_cond_destroy instead. [-Wuser-defined-warnings]
+  931 |   return __gthrw_(pthread_cond_destroy) (__cond);
+      |                   ^
+../lib/pthread.h:2286:1: note: from 'diagnose_if' attribute on 'pthread_cond_destroy':
+ 2286 | _GL_CXXALIASWARN (pthread_cond_destroy);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:490:4: note: expanded from macro '_GL_CXXALIASWARN'
+  490 |    _GL_CXXALIASWARN_1 (func, GNULIB_NAMESPACE)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:492:4: note: expanded from macro '_GL_CXXALIASWARN_1'
+  492 |    _GL_CXXALIASWARN_2 (func, namespace)
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:497:5: note: expanded from macro '_GL_CXXALIASWARN_2'
+  497 |     _GL_WARN_ON_USE (func, \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+  498 |                      "The symbol ::" #func " refers to the system function. " \
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  499 |                      "Use " #namespace "::" #func " instead.")
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../lib/wchar.h:665:19: note: expanded from macro '_GL_WARN_ON_USE'
+  665 |   __attribute__ ((__diagnose_if__ (1, message, "warning")))
+      |                   ^                ~
+  CC       test-wctype-h.o
+  CC       test-wctype.o
+  CC       test-wcwidth.o
+  CC       test-windows-mutex-type.o
+  CC       test-windows-recmutex-type.o
+  CC       test-windows-timedmutex-type.o
+  CC       test-windows-timedrecmutex-type.o
+  CC       test-write.o
+  CC       test-xalloc-die.o
+  CC       test-xmemdup0.o
+make[5]: 'libtests.a' is up to date.
+  CC       test-xvasprintf.o
+  CCLD     test-accept
+17 warnings generated.
+  CCLD     test-access
+  CCLD     test-alignasof
+  CCLD     test-alloca-opt
+  CXXLD    test-arpa_inet-h-c++
+  CCLD     test-arpa_inet-h
+  CCLD     test-array_list
+  CCLD     test-array_oset
+  CXXLD    test-assert-h-c++
+  CCLD     test-assert
+  CCLD     test-asyncsafe-spin1
+  CCLD     test-asyncsafe-spin2
+  CCLD     test-avltree_oset
+  CCLD     test-binary-io
+  CCLD     test-bind
+  CCLD     test-bitrotate
+  CXXLD    test-bool-c++
+  CCLD     test-bool
+  CCLD     test-btoc32
+  CCLD     test-btowc
+  CCLD     test-c-ctype
+  CCLD     test-c-stack
+  CCLD     test-c-strcasecmp
+  CCLD     test-c-strcasestr
+  CCLD     test-c-strncasecmp
+  CCLD     test-c32isalnum
+  CCLD     test-c32isalpha
+  CCLD     test-c32isblank
+  CCLD     test-c32iscntrl
+  CCLD     test-c32isdigit
+  CCLD     test-c32isgraph
+  CCLD     test-c32islower
+  CCLD     test-c32isprint
+  CCLD     test-c32ispunct
+  CCLD     test-c32isspace
+  CCLD     test-c32isupper
+  CCLD     test-c32isxdigit
+  CCLD     test-c32rtomb
+  CCLD     test-c32rtomb-w32
+  CCLD     test-c32tolower
+  CCLD     test-c32width
+  CCLD     test-calloc-gnu
+  CCLD     test-calloc-posix
+  CCLD     test-canonicalize-lgpl
+  CCLD     test-canonicalize
+  CCLD     test-chdir
+  CCLD     test-cloexec
+  CCLD     test-close
+  CCLD     test-closein
+  CCLD     test-connect
+  CCLD     test-creat
+  CXXLD    test-ctype-h-c++
+  CCLD     test-ctype-h
+  CXXLD    test-dirent-h-c++
+  CCLD     test-dirent-h
+  CCLD     test-dirfd
+  CCLD     test-dirname
+  CCLD     test-dup
+  CCLD     test-dup2
+  CCLD     test-environ
+  CXXLD    test-errno-h-c++
+  CCLD     test-errno-h
+  CCLD     test-error
+  CCLD     test-execute-main
+  GEN      test-execute-child
+  CCLD     test-execute-script
+  CCLD     test-fchdir
+  CCLD     test-fclose
+  CCLD     test-fcntl-h
+  CCLD     test-fcntl
+  CCLD     test-fdopen
+  CCLD     test-fdopendir
+  CCLD     test-fflush
+  CCLD     test-fflush2
+  CCLD     test-fgetc
+  CCLD     test-filenamecat
+  CXXLD    test-float-h-c++
+  CCLD     test-fopen-gnu
+  CCLD     test-fopen-safer
+  CCLD     test-fopen
+  CCLD     test-fpending
+  CCLD     test-fpurge
+  CCLD     test-fputc
+  CCLD     test-fread
+  CCLD     test-freadahead
+  CCLD     test-freading
+  CCLD     test-free
+  CCLD     test-freopen
+  CCLD     test-frexp-nolibm
+  CCLD     test-frexp
+  CCLD     test-frexpl-nolibm
+  CCLD     test-frexpl
+  CCLD     test-fseek
+  CCLD     test-fseeko
+  CCLD     test-fseeko3
+  CCLD     test-fseeko4
+  CCLD     test-fseterr
+  CCLD     test-fstat
+  CCLD     test-fstatat
+  CCLD     test-ftell
+  CCLD     test-ftell3
+  CCLD     test-ftello
+  CCLD     test-ftello3
+  CCLD     test-ftello4
+  CCLD     test-ftruncate
+  CCLD     test-fwrite
+  CCLD     test-getcwd-lgpl
+  CCLD     test-getcwd
+  CCLD     test-getdtablesize
+  CCLD     test-getopt-gnu
+  CCLD     test-getprogname
+  CCLD     test-getrandom
+  CCLD     test-gettext-h
+  CCLD     test-gettimeofday
+  CCLD     test-dynarray
+  CCLD     test-scratch-buffer
+  CCLD     test-hard-locale
+  CCLD     test-hash
+  CXXLD    test-iconv-h-c++
+  CCLD     test-iconv-h
+  CCLD     test-iconv
+  CCLD     test-ignore-value
+  CCLD     test-inet_pton
+  CCLD     test-intprops
+  CCLD     test-inttostr
+  CXXLD    test-inttypes-h-c++
+  CCLD     test-inttypes-h
+  CCLD     test-ioctl
+  CCLD     test-isblank
+  CCLD     test-isinf
+  CCLD     test-isnand-nolibm
+  CCLD     test-isnanf-nolibm
+  CCLD     test-isnanl-nolibm
+  CCLD     test-iswblank
+  CCLD     test-iswctype
+  CCLD     test-iswdigit
+  CCLD     test-iswpunct
+  CCLD     test-iswxdigit
+  CXXLD    test-langinfo-h-c++
+  CCLD     test-langinfo-h
+  CCLD     test-largefile
+  CXXLD    test-limits-h-c++
+  CCLD     test-limits-h
+  CCLD     test-link
+  CCLD     test-linked_list
+  CCLD     test-linkedhash_list
+  CCLD     test-listen
+  CXXLD    test-locale-h-c++
+  CCLD     test-locale-h
+  CCLD     test-localeconv
+  CCLD     test-localeconv-mt
+  CCLD     test-localename
+  CCLD     test-lseek
+  CCLD     test-lstat
+  CCLD     test-malloc-gnu
+  CCLD     test-malloc-posix
+  CCLD     test-malloca
+  CXXLD    test-math-h-c++
+  CCLD     test-math-h
+  CCLD     test-mbrtoc32
+  CCLD     test-mbrtoc32-w32
+  CCLD     test-mbrtowc
+  CCLD     test-mbrtowc-w32
+  CCLD     test-mbsinit
+  CCLD     test-mbslen
+  CCLD     test-mbsnlen
+  CCLD     test-mbsstr1
+  CCLD     test-mbsstr2
+  CCLD     test-memchr
+  CCLD     test-mbsstr3
+  CCLD     test-memchr2
+  CCLD     test-memrchr
+  CCLD     test-memset_explicit
+  CCLD     test-mkdir
+  CCLD     test-mkfifo
+  CCLD     test-nanosleep
+  CXXLD    test-netinet_in-h-c++
+  CCLD     test-netinet_in-h
+  CCLD     test-nl_langinfo1
+  CCLD     test-next-prime
+  CCLD     test-nl_langinfo2
+  CCLD     test-nl_langinfo-mt
+  CCLD     test-once1
+  CCLD     test-once2
+  CCLD     test-open
+  CCLD     test-openat
+  CCLD     test-pathmax
+  CCLD     test-perror
+  CCLD     test-perror2
+  CCLD     test-pipe
+  CCLD     test-pipe2
+  CCLD     test-posix_spawn-open1
+  CCLD     test-posix_spawn-open2
+  CCLD     test-posix_spawn-inherit1
+  CCLD     test-posix_spawn-inherit0
+  CCLD     test-posix_spawn-script
+  CCLD     test-posix_spawn_file_actions_addchdir
+  CCLD     test-posix_spawn_file_actions_addclose
+  CCLD     test-posix_spawn-chdir
+  CCLD     test-posix_spawn_file_actions_adddup2
+  CCLD     test-posix_spawn_file_actions_addopen
+  CCLD     test-posix_spawn-dup2-stdout
+  CCLD     test-posix_spawn-dup2-stdin
+  CCLD     test-posix_spawnp-script
+  CCLD     test-posix_spawnp-vfork
+  CCLD     test-printf-frexp
+  CCLD     test-printf-frexpl
+  CCLD     test-pselect
+  CCLD     test-pthread-cond
+  CXXLD    test-pthread-c++
+  CCLD     test-pthread
+  CCLD     test-pthread-mutex
+  CCLD     test-pthread-mutex-type
+  CCLD     test-pthread-once1
+  CCLD     test-pthread-once2
+  CCLD     test-pthread-rwlock
+  CCLD     test-pthread-thread
+  CCLD     test-pthread_sigmask1
+  CCLD     test-pthread_sigmask2
+  CCLD     test-putenv
+  CCLD     test-quotearg-simple
+  CCLD     test-raise
+  CCLD     test-random
+  CCLD     test-random-mt
+  CCLD     test-random_r
+  CCLD     test-rawmemchr
+  CCLD     test-read-file
+  CCLD     test-readlink
+  CCLD     test-realloc-posix
+  CCLD     test-reallocarray
+  CCLD     test-regex
+  CCLD     test-rename
+  CCLD     test-rmdir
+  CXXLD    test-sched-h-c++
+  CCLD     test-sched-h
+  CCLD     test-select
+  CCLD     test-select-fd
+  CCLD     test-select-stdin
+  CCLD     test-setenv
+  CCLD     test-setlocale_null
+  CCLD     test-setlocale_null-mt-one
+  CCLD     test-setlocale_null-mt-all
+  CCLD     test-setlocale_null-unlocked
+  CCLD     test-setlocale1
+  CCLD     test-setlocale2
+  CCLD     test-setlocale-w32
+  CCLD     test-setsockopt
+  CCLD     test-sigaction
+  CXXLD    test-signal-h-c++
+  CCLD     test-signal-h
+  CCLD     test-signbit
+  CCLD     test-sigpipe
+  CCLD     test-sigprocmask
+  CCLD     test-sigsegv-catch-segv1
+  CCLD     test-sigsegv-catch-segv2
+  CCLD     test-sigsegv-catch-stackoverflow1
+  CCLD     test-sigsegv-catch-stackoverflow2
+  CCLD     test-sleep
+  CCLD     test-snprintf
+  CCLD     test-sockets
+  CXXLD    test-spawn-h-c++
+  CCLD     test-spawn-h
+  CCLD     test-spawn-pipe-main
+  GEN      test-spawn-pipe-child
+  CCLD     test-spawn-pipe-script
+  CCLD     test-spin1
+  CCLD     test-spin2
+  CCLD     test-stat
+  CXXLD    test-stat-time-c++
+  CCLD     test-stat-time
+  CXXLD    test-stdarg-h-c++
+  CXXLD    test-stdckdint-h-c++
+  CCLD     test-stdckdint-h
+  CXXLD    test-stddef-h-c++
+  CCLD     test-stddef-h
+  CCLD     test-stdint-h
+  CXXLD    test-stdint-h-c++
+  CXXLD    test-stdio-h-c++
+  CCLD     test-stdio-h
+  CXXLD    test-stdlib-h-c++
+  CCLD     test-stdlib-h
+  CCLD     test-str_endswith
+  CCLD     test-str_startswith
+  CCLD     test-strchrnul
+  CCLD     test-strerror
+  CCLD     test-strerror_r
+  CCLD     test-striconv
+  CXXLD    test-string-h-c++
+  CCLD     test-string-h
+  CCLD     test-strncpy
+  CCLD     test-strnlen
+  CCLD     test-strstr
+  CCLD     test-strsignal
+  CCLD     test-strtod1
+  CCLD     test-strtod
+  CCLD     test-symlink
+  CXXLD    test-sys_ioctl-h-c++
+  CCLD     test-sys_ioctl-h
+  CXXLD    test-sys_random-h-c++
+  CCLD     test-sys_random-h
+  CXXLD    test-sys_select-h-c++
+  CCLD     test-sys_select-h
+  CXXLD    test-sys_socket-h-c++
+  CCLD     test-sys_socket-h
+  CXXLD    test-sys_stat-h-c++
+  CCLD     test-sys_stat-h
+  CXXLD    test-sys_time-h-c++
+  CCLD     test-sys_time-h
+  CXXLD    test-sys_types-h-c++
+  CCLD     test-sys_types-h
+  CXXLD    test-sys_uio-h-c++
+  CCLD     test-sys_uio-h
+  CXXLD    test-sys_wait-h-c++
+  CCLD     test-sys_wait-h
+  CCLD     test-thread_self
+  CCLD     test-thread_create
+  CXXLD    test-time-h-c++
+  CCLD     test-time-h
+  CCLD     test-time
+  CCLD     test-trim
+  CCLD     test-trunc1
+  CCLD     test-trunc2
+  CCLD     test-truncl
+  CXXLD    test-uchar-h-c++
+  CXX      unicase/test-unicase-h-c++.o
+  CCLD     test-uchar-h
+  CC       unicase/test-unicase-h.o
+  CC       unicase/test-uc_tolower.o
+  CXX      unictype/test-unictype-h-c++.o
+  CC       unictype/test-unictype-h.o
+  CC       unictype/test-ctype_alnum.o
+  CC       unictype/test-ctype_alpha.o
+  CC       unictype/test-ctype_blank.o
+  CC       unictype/test-ctype_cntrl.o
+  CC       unictype/test-ctype_digit.o
+  CC       unictype/test-ctype_graph.o
+  CC       unictype/test-ctype_lower.o
+  CC       unictype/test-ctype_print.o
+  CC       unictype/test-ctype_punct.o
+  CC       unictype/test-ctype_space.o
+  CC       unictype/test-ctype_upper.o
+  CC       unictype/test-ctype_xdigit.o
+  CXX      uninorm/test-uninorm-h-c++.o
+  CC       uninorm/test-uninorm-h.o
+  CXXLD    test-unistd-h-c++
+  CCLD     test-unistd-h
+  CCLD     test-dup-safer
+  CXX      unistr/test-unistr-h-c++.o
+  CC       unistr/test-unistr-h.o
+  CC       unistr/test-u8-mbtoucr.o
+  CC       unistr/test-u8-uctomb.o
+  CXX      uniwidth/test-uniwidth-h-c++.o
+  CC       uniwidth/test-uniwidth-h.o
+  CC       uniwidth/test-uc_width.o
+  CC       uniwidth/test-uc_width2.o
+  CCLD     test-unsetenv
+  CCLD     test-vasnprintf
+  CCLD     test-vasprintf-posix
+  CCLD     test-vasprintf
+  CCLD     test-verify
+  CCLD     test-verror
+  CCLD     test-version-etc
+  CXXLD    test-wchar-h-c++
+  CCLD     test-wchar-h
+  CCLD     test-wcrtomb
+  CCLD     test-wcrtomb-w32
+  CXXLD    test-wctype-h-c++
+  CCLD     test-wctype-h
+  CCLD     test-wctype
+  CCLD     test-wcwidth
+  CCLD     test-windows-mutex-type
+  CCLD     test-windows-recmutex-type
+  CCLD     test-windows-timedmutex-type
+  CCLD     test-windows-timedrecmutex-type
+  CCLD     test-write
+  CCLD     test-xalloc-die
+  CCLD     test-xmemdup0
+  CCLD     test-xvasprintf
+  CXXLD    test-unicase-h-c++
+  CCLD     test-unicase-h
+  CCLD     test-uc_tolower
+  CXXLD    test-unictype-h-c++
+  CCLD     test-unictype-h
+  CCLD     test-ctype_alnum
+  CCLD     test-ctype_alpha
+  CCLD     test-ctype_blank
+  CCLD     test-ctype_cntrl
+  CCLD     test-ctype_digit
+  CCLD     test-ctype_graph
+  CCLD     test-ctype_lower
+  CCLD     test-ctype_print
+  CCLD     test-ctype_punct
+  CCLD     test-ctype_space
+  CCLD     test-ctype_upper
+  CCLD     test-ctype_xdigit
+  CXXLD    test-uninorm-h-c++
+  CCLD     test-uninorm-h
+  CXXLD    test-unistr-h-c++
+  CCLD     test-unistr-h
+  CCLD     test-u8-mbtoucr
+  CCLD     test-u8-uctomb
+  CXXLD    test-uniwidth-h-c++
+  CCLD     test-uniwidth-h
+  CCLD     test-uc_width
+  CCLD     test-uc_width2
+make[5]: Leaving directory '<EVIDENCE>/build-OPENAT_ONLY/tests'
+make  check-TESTS
+make[5]: Entering directory '<EVIDENCE>/build-OPENAT_ONLY/tests'
+make[6]: Entering directory '<EVIDENCE>/build-OPENAT_ONLY/tests'
+PASS: test-accept
+PASS: test-access
+PASS: test-alignasof
+PASS: test-alloca-opt
+PASS: test-arpa_inet-h-c++
+PASS: test-arpa_inet-h
+PASS: test-array_list
+PASS: test-assert-h-c++
+PASS: test-assert
+PASS: test-asyncsafe-spin1
+SKIP: test-asyncsafe-spin2
+PASS: test-array_oset
+PASS: test-binary-io.sh
+PASS: test-bind
+PASS: test-bitrotate
+PASS: test-bool-c++
+PASS: test-bool
+PASS: test-btoc32-1.sh
+PASS: test-btoc32-3.sh
+SKIP: test-btoc32-2.sh
+PASS: test-btowc-1.sh
+PASS: test-avltree_oset
+SKIP: test-btowc-2.sh
+PASS: test-btowc-3.sh
+PASS: test-c-ctype
+PASS: test-c-stack.sh
+PASS: test-c-strcasecmp.sh
+PASS: test-c-strncasecmp.sh
+PASS: test-c32isalnum.sh
+PASS: test-c32isalpha.sh
+PASS: test-c32isblank.sh
+PASS: test-c32iscntrl.sh
+PASS: test-c32isdigit.sh
+PASS: test-c-strcasestr
+PASS: test-c32isgraph.sh
+PASS: test-c32islower.sh
+PASS: test-c32isprint.sh
+PASS: test-c32ispunct.sh
+PASS: test-c32isspace.sh
+PASS: test-c32isupper.sh
+PASS: test-c32isxdigit.sh
+PASS: test-c32rtomb.sh
+SKIP: test-c32rtomb-w32-2.sh
+SKIP: test-c32rtomb-w32-3.sh
+SKIP: test-c32rtomb-w32-4.sh
+SKIP: test-c32rtomb-w32-5.sh
+SKIP: test-c32rtomb-w32-6.sh
+SKIP: test-c32rtomb-w32-7.sh
+SKIP: test-c32rtomb-w32-8.sh
+PASS: test-c32tolower.sh
+PASS: test-c32width
+PASS: test-calloc-gnu
+PASS: test-calloc-posix
+PASS: test-canonicalize-lgpl
+PASS: test-chdir
+PASS: test-canonicalize
+PASS: test-cloexec
+PASS: test-close
+PASS: test-connect
+PASS: test-creat
+PASS: test-ctype-h-c++
+PASS: test-ctype-h
+PASS: test-dirent-h-c++
+PASS: test-dirent-h
+PASS: test-dirfd
+PASS: test-dirname
+PASS: test-dup
+PASS: test-dup2
+PASS: test-environ
+PASS: test-errno-h-c++
+PASS: test-errno-h
+PASS: test-closein.sh
+PASS: test-execute-script
+PASS: test-fchdir
+PASS: test-fclose
+PASS: test-fcntl-h-c++
+PASS: test-execute.sh
+PASS: test-fcntl-h
+PASS: test-error.sh
+PASS: test-fcntl
+PASS: test-fdopen
+PASS: test-fdopendir
+PASS: test-fflush
+PASS: test-fflush2.sh
+PASS: test-fgetc
+PASS: test-filenamecat
+PASS: test-float-h-c++
+PASS: test-float-h
+PASS: test-fopen-gnu
+PASS: test-fopen-safer
+PASS: test-fopen
+PASS: test-fpending.sh
+PASS: test-fpurge
+PASS: test-fputc
+PASS: test-fread
+PASS: test-freading
+PASS: test-freadahead.sh
+PASS: test-freopen
+PASS: test-frexp-nolibm
+PASS: test-frexp
+PASS: test-frexpl-nolibm
+PASS: test-frexpl
+PASS: test-fseek.sh
+PASS: test-fseek2.sh
+PASS: test-fseeko.sh
+PASS: test-fseeko2.sh
+PASS: test-fseeko3.sh
+PASS: test-fseeko4.sh
+PASS: test-fseterr
+PASS: test-fstat
+PASS: test-fstatat
+PASS: test-ftell.sh
+PASS: test-ftell2.sh
+PASS: test-ftell3
+PASS: test-ftello.sh
+PASS: test-ftello2.sh
+PASS: test-ftello3
+PASS: test-ftello4.sh
+PASS: test-ftruncate.sh
+PASS: test-fwrite
+PASS: test-getcwd-lgpl
+PASS: test-free
+PASS: test-getdtablesize
+PASS: test-getopt-gnu
+PASS: test-getprogname
+PASS: test-getrandom
+PASS: test-gettext-h
+PASS: test-gettimeofday
+PASS: test-dynarray
+PASS: test-scratch-buffer
+PASS: test-hard-locale
+PASS: test-getcwd.sh
+PASS: test-iconv-h-c++
+PASS: test-iconv-h
+PASS: test-iconv
+PASS: test-ignore-value
+PASS: test-inet_pton
+PASS: test-intprops
+PASS: test-inttostr
+PASS: test-inttypes-h-c++
+PASS: test-inttypes-h
+PASS: test-ioctl
+PASS: test-isblank
+PASS: test-isinf
+PASS: test-isnand-nolibm
+PASS: test-isnanf-nolibm
+PASS: test-isnanl-nolibm
+PASS: test-iswblank
+PASS: test-iswctype
+PASS: test-iswdigit.sh
+PASS: test-iswpunct.sh
+PASS: test-iswxdigit.sh
+PASS: test-langinfo-h-c++
+PASS: test-langinfo-h
+PASS: test-largefile
+PASS: test-limits-h-c++
+PASS: test-limits-h
+PASS: test-link
+PASS: test-funclib-quote.sh
+PASS: test-linked_list
+PASS: test-linkedhash_list
+PASS: test-listen
+PASS: test-locale-h-c++
+PASS: test-locale-h
+PASS: test-localeconv
+SKIP: test-localeconv-mt
+PASS: test-localename
+PASS: test-lstat
+PASS: test-lseek.sh
+PASS: test-malloc-gnu
+PASS: test-malloc-posix
+PASS: test-math-h-c++
+PASS: test-malloca
+PASS: test-math-h
+SKIP: test-mbrtoc32-2.sh
+PASS: test-mbrtoc32-1.sh
+PASS: test-hash
+PASS: test-mbrtoc32-3.sh
+SKIP: test-mbrtoc32-4.sh
+SKIP: test-mbrtoc32-5.sh
+SKIP: test-mbrtoc32-w32-2.sh
+SKIP: test-mbrtoc32-w32-3.sh
+SKIP: test-mbrtoc32-w32-4.sh
+SKIP: test-mbrtoc32-w32-5.sh
+SKIP: test-mbrtoc32-w32-6.sh
+SKIP: test-mbrtoc32-w32-7.sh
+SKIP: test-mbrtoc32-w32-8.sh
+PASS: test-mbrtowc-1.sh
+SKIP: test-mbrtowc-2.sh
+PASS: test-mbrtowc-3.sh
+SKIP: test-mbrtowc-4.sh
+SKIP: test-mbrtowc-5.sh
+SKIP: test-mbrtowc-w32-2.sh
+SKIP: test-mbrtowc-w32-3.sh
+SKIP: test-mbrtowc-w32-4.sh
+SKIP: test-mbrtowc-w32-5.sh
+SKIP: test-mbrtowc-w32-6.sh
+SKIP: test-mbrtowc-w32-7.sh
+SKIP: test-mbrtowc-w32-8.sh
+PASS: test-mbsinit.sh
+PASS: test-mbslen.sh
+PASS: test-mbsnlen.sh
+SKIP: test-mbsstr3.sh
+PASS: test-mbsstr1
+PASS: test-memchr2
+PASS: test-memrchr
+PASS: test-memset_explicit
+PASS: test-mkdir
+PASS: test-mkfifo
+PASS: test-mbsstr2.sh
+PASS: test-netinet_in-h-c++
+PASS: test-netinet_in-h
+PASS: test-next-prime
+PASS: test-nl_langinfo1.sh
+PASS: test-nl_langinfo2.sh
+SKIP: test-nl_langinfo-mt
+PASS: test-once1
+PASS: test-once2
+PASS: test-open
+PASS: test-openat
+PASS: test-memchr
+PASS: test-pathmax
+PASS: test-perror.sh
+PASS: test-perror2
+PASS: test-pipe
+PASS: test-pipe2
+PASS: test-posix_spawn-open1
+PASS: test-c-stack2.sh
+PASS: test-posix_spawn-open2
+PASS: test-posix_spawn-inherit0
+PASS: test-posix_spawn-inherit1
+PASS: test-posix_spawn-script
+PASS: test-posix_spawn_file_actions_addchdir
+PASS: test-posix_spawn_file_actions_addclose
+PASS: test-posix_spawn-chdir
+PASS: test-posix_spawn_file_actions_adddup2
+PASS: test-posix_spawn_file_actions_addopen
+PASS: test-posix_spawn-dup2-stdout
+PASS: test-posix_spawn-dup2-stdin
+PASS: test-posix_spawnp-vfork
+PASS: test-posix_spawnp-script
+PASS: test-printf-frexp
+PASS: test-pselect
+SKIP: test-pthread-cond
+PASS: test-pthread-c++
+PASS: test-pthread
+SKIP: test-pthread-mutex
+PASS: test-printf-frexpl
+PASS: test-pthread-mutex-type
+PASS: test-pthread-once1
+SKIP: test-pthread-once2
+SKIP: test-pthread-rwlock
+PASS: test-pthread-thread
+SKIP: test-pthread_sigmask2
+PASS: test-putenv
+PASS: test-quotearg-simple
+PASS: test-raise
+PASS: test-random
+SKIP: test-random-mt
+PASS: test-random_r
+PASS: test-rawmemchr
+PASS: test-read-file
+PASS: test-readlink
+PASS: test-realloc-posix
+PASS: test-reallocarray
+PASS: test-nanosleep
+PASS: test-rename
+PASS: test-rmdir
+PASS: test-sched-h-c++
+PASS: test-sched-h
+PASS: test-select
+PASS: test-pthread_sigmask1
+PASS: test-select-in.sh
+PASS: test-setenv
+PASS: test-setlocale_null
+SKIP: test-setlocale_null-mt-one
+SKIP: test-setlocale_null-mt-all
+PASS: test-setlocale_null-unlocked
+PASS: test-setlocale1.sh
+PASS: test-setlocale2.sh
+SKIP: test-setlocale-w32
+PASS: test-setsockopt
+PASS: test-sigaction
+PASS: test-signal-h-c++
+PASS: test-signal-h
+PASS: test-signbit
+PASS: test-sigpipe.sh
+PASS: test-select-out.sh
+PASS: test-sigsegv-catch-segv1
+PASS: test-option-parser.sh
+PASS: test-sigsegv-catch-segv2
+PASS: test-sigsegv-catch-stackoverflow1
+PASS: test-sigsegv-catch-stackoverflow2
+PASS: test-snprintf
+PASS: test-sockets
+PASS: test-spawn-h-c++
+PASS: test-spawn-h
+PASS: test-spawn-pipe.sh
+PASS: test-spawn-pipe-script
+PASS: test-spin1
+SKIP: test-spin2
+PASS: test-stat
+PASS: test-stat-time-c++
+PASS: test-stat-time
+PASS: test-stdarg-h-c++
+PASS: test-stdckdint-h-c++
+PASS: test-stdckdint-h
+PASS: test-stddef-h-c++
+PASS: test-stddef-h
+PASS: test-stdint-h-c++
+PASS: test-stdint-h
+PASS: test-stdio-h-c++
+PASS: test-stdio-h
+PASS: test-stdlib-h-c++
+PASS: test-stdlib-h
+PASS: test-str_endswith
+PASS: test-str_startswith
+PASS: test-strchrnul
+PASS: test-strerror
+PASS: test-strerror_r
+PASS: test-striconv
+PASS: test-string-h-c++
+PASS: test-string-h
+PASS: test-strncpy
+PASS: test-strnlen
+PASS: test-strsignal
+PASS: test-strstr
+PASS: test-strtod
+PASS: test-strtod1.sh
+PASS: test-symlink
+PASS: test-sys_ioctl-h-c++
+PASS: test-sys_ioctl-h
+PASS: test-sys_random-h-c++
+PASS: test-sys_random-h
+PASS: test-sys_select-h-c++
+PASS: test-sys_select-h
+PASS: test-sys_socket-h-c++
+PASS: test-sys_socket-h
+PASS: test-sys_stat-h-c++
+PASS: test-sys_stat-h
+PASS: test-sys_time-h-c++
+PASS: test-sys_time-h
+PASS: test-sys_types-h-c++
+PASS: test-sys_types-h
+PASS: test-sys_uio-h-c++
+PASS: test-sys_uio-h
+PASS: test-sys_wait-h-c++
+PASS: test-sys_wait-h
+PASS: test-init.sh
+PASS: test-thread_self
+SKIP: test-thread_create
+PASS: test-time-h-c++
+PASS: test-time-h
+PASS: test-time
+PASS: test-trim1.sh
+PASS: test-trim2.sh
+SKIP: test-trim3.sh
+PASS: test-trunc1
+PASS: test-trunc2
+PASS: test-truncl
+PASS: test-uchar-h-c++
+PASS: test-uchar-h
+PASS: test-unicase-h-c++
+PASS: test-unicase-h
+PASS: test-uc_tolower
+PASS: test-unictype-h-c++
+PASS: test-unictype-h
+PASS: test-ctype_alnum
+PASS: test-ctype_alpha
+PASS: test-ctype_blank
+PASS: test-ctype_cntrl
+PASS: test-ctype_digit
+PASS: test-ctype_graph
+PASS: test-ctype_lower
+PASS: test-ctype_print
+PASS: test-ctype_punct
+PASS: test-ctype_space
+PASS: test-ctype_upper
+PASS: test-ctype_xdigit
+PASS: test-uninorm-h-c++
+PASS: test-uninorm-h
+PASS: test-unistd-h-c++
+PASS: test-unistd-h
+PASS: test-dup-safer
+PASS: test-unistr-h-c++
+PASS: test-unistr-h
+PASS: test-u8-mbtoucr
+PASS: test-u8-uctomb
+PASS: test-uniwidth-h-c++
+PASS: test-uniwidth-h
+PASS: test-uc_width
+PASS: uniwidth/test-uc_width2.sh
+PASS: test-unsetenv
+PASS: test-update-copyright.sh
+PASS: test-vasnprintf
+PASS: test-vasprintf-posix
+PASS: test-vasprintf
+PASS: test-vc-list-files-git.sh
+SKIP: test-vc-list-files-cvs.sh
+PASS: test-verify
+PASS: test-sigprocmask
+PASS: test-verror.sh
+PASS: test-version-etc.sh
+PASS: test-wchar-h-c++
+PASS: test-wchar-h
+PASS: test-wcrtomb.sh
+SKIP: test-wcrtomb-w32-2.sh
+SKIP: test-wcrtomb-w32-3.sh
+SKIP: test-wcrtomb-w32-4.sh
+SKIP: test-wcrtomb-w32-5.sh
+PASS: test-sleep
+SKIP: test-wcrtomb-w32-6.sh
+SKIP: test-wcrtomb-w32-7.sh
+SKIP: test-wcrtomb-w32-8.sh
+PASS: test-wctype-h-c++
+PASS: test-wctype-h
+PASS: test-wctype
+PASS: test-wcwidth
+SKIP: test-windows-mutex-type
+SKIP: test-windows-recmutex-type
+SKIP: test-windows-timedmutex-type
+SKIP: test-windows-timedrecmutex-type
+PASS: test-write
+PASS: test-xmemdup0
+PASS: test-xvasprintf
+PASS: test-xalloc-die.sh
+PASS: test-verify.sh
+PASS: test-regex
+============================================================================
+Testsuite summary for GNU M4 1.4.21
+============================================================================
+# TOTAL: 428
+# PASS:  371
+# SKIP:  57
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '<EVIDENCE>/build-OPENAT_ONLY/tests'
+make[5]: Leaving directory '<EVIDENCE>/build-OPENAT_ONLY/tests'
+make[4]: Leaving directory '<EVIDENCE>/build-OPENAT_ONLY/tests'
+make[3]: Leaving directory '<EVIDENCE>/build-OPENAT_ONLY/tests'
+make[2]: Leaving directory '<EVIDENCE>/build-OPENAT_ONLY/tests'
+make[1]: Leaving directory '<EVIDENCE>/build-OPENAT_ONLY'

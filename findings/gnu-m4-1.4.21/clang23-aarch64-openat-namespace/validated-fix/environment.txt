@@ -1,0 +1,11 @@
+Component: GNU M4 1.4.21 / bundled Gnulib
+Status: VALIDATED FIX
+Related finding commit: 3188465
+Architecture: aarch64
+OS: Ubuntu 26.04.1 LTS
+Kernel: 7.0.0-1010-oracle
+glibc: ldd (Ubuntu GLIBC 2.43-2ubuntu2.3) 2.43
+Clang/Clang++: clang version 23.1.0
+GCC/G++: g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+GNU M4: 1.4.21
+C++ support: enabled

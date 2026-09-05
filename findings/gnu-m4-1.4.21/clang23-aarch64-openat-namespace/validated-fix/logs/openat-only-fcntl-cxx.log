@@ -1,0 +1,5 @@
+make: Entering directory '<EVIDENCE>/build-OPENAT_ONLY/tests'
+depbase=`echo test-fcntl-h-c++.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+/opt/llvm-23.1.0/bin/clang++ -DEXEEXT=\"\" -DEXEEXT=\"\" -I. -I<EVIDENCE>/src-OPENAT_ONLY/tests -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I<EVIDENCE>/src-OPENAT_ONLY/tests -I.. -I<EVIDENCE>/src-OPENAT_ONLY/tests/.. -I../lib -I<EVIDENCE>/src-OPENAT_ONLY/tests/../lib -D_FORTIFY_SOURCE=3 -Wno-error -Wno-error -O2 -pipe -mcpu=neoverse-n1 -fstack-protector-strong -MT test-fcntl-h-c++.o -MD -MP -MF $depbase.Tpo -c -o test-fcntl-h-c++.o <EVIDENCE>/src-OPENAT_ONLY/tests/test-fcntl-h-c++.cc &&\
+mv -f $depbase.Tpo $depbase.Po
+make: Leaving directory '<EVIDENCE>/build-OPENAT_ONLY/tests'
