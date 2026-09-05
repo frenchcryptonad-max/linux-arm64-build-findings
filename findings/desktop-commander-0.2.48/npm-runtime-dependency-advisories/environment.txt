@@ -1,0 +1,8 @@
+COMPONENT=@wonderwhy-er/desktop-commander
+VERSION=0.2.48
+ARCH=aarch64
+KERNEL=Linux 7.0.0-1010-oracle
+OS=Ubuntu 26.04.1 LTS
+NODE=v26.8.1
+NPM=12.0.2
+AUDIT_SOURCE=/osarm-build/audit/desktop-commander-0.2.48-npm-lock-security-20260905T231906Z
