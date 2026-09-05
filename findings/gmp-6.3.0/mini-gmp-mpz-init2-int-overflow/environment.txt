@@ -1,0 +1,23 @@
+COMPONENT=GNU GMP 6.3.0
+SUBCOMPONENT=mini-gmp
+FILE=mini-gmp/mini-gmp.c
+FUNCTION=mpz_init2
+ARCH=aarch64
+KERNEL=Linux 7.0.0-1010-oracle
+LIBC=ldd (Ubuntu GLIBC 2.43-2ubuntu2.3) 2.43
+
+=== GCC ===
+gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+
+=== CLANG ===
+Ubuntu clang version 21.1.8 (6ubuntu1)
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/lib/llvm-21/bin
+
+=== SOURCE HASHES ===
+378a9731eb6fd69b93fa074172f79be4089c813365613e414f4da4923dcbda52  /osarm-build/sources/gmp/gmp-6.3.0/mini-gmp/mini-gmp.c
+54ec9383fdf6103a0e22bde2663ca8eb420338015839b663e0eccee103afae99  /osarm-build/sources/gmp/gmp-6.3.0/mini-gmp/mini-gmp.h
+3f8ec465355b30039f8da719b5b006950835e63f980a67e5ce81f5bd29a8d178  /osarm-build/sources/gmp/gmp-6.3.0/mpz/init2.c
