@@ -1,0 +1,22 @@
+=== STOCK TARGET BEHAVIOR ===
+PCRE2_CONFIG_JIT=0
+
+=== ISOLATION: REMOVE ONLY AARCH64 MUSL JIT GUARD ===
+PCRE2 static compilation=PASS
+High-level JIT final link=FAIL
+Linker diagnostic=undefined reference to `__clear_cache`
+Origin=pcre2_jit_compile.o / SLJIT cache flush
+
+=== SYMBOL PROVIDER ===
+/usr/lib/gcc/aarch64-linux-gnu/15/libgcc.a:_clear_cache.o: T __clear_cache
+/usr/lib/gcc/aarch64-linux-gnu/15/libgcc.a:sync-cache.o: T __aarch64_sync_cache_range
+
+=== CONTROL ===
+A static musl C program using __builtin___clear_cache builds and runs.
+High-level pcre2 JIT with the GCC runtime linked builds and runs.
+
+=== CLASSIFICATION ===
+NO_ACTIVATABLE
+FINDING_STATUS=ISOLATED
+FIX_STATUS=SEPARATE_PATCH_CANDIDATE
+PUBLICATION_STATUS=NOT_PUBLISHED
