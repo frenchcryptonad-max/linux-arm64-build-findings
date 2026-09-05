@@ -45,3 +45,26 @@ No patch or correction is included in this finding.
 
 Any patch candidate and validation evidence must remain under a separate
 `fixes/` tree and separate Git commit.
+
+## Validated fix
+
+A validated correction has been published separately.
+
+Path:
+
+`fixes/gmp-tip-ab4a7408e2ce/c23-knr-lshift-com-probes`
+
+Validated fix commit:
+
+`e4dbdd2f5b203f77e2bcac62130af4b41d8bd98a`
+
+Validation status:
+
+- GCC GNU23 build/check: PASS
+- Clang GNU23 build/check: PASS
+- true test failures: 0
+- non-regression: PASS
+
+Upstream status:
+
+`NOT_SUBMITTED`
