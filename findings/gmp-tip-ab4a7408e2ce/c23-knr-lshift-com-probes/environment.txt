@@ -1,0 +1,17 @@
+Component: GNU GMP upstream tip
+Upstream revision: 18587:ab4a7408e2ce
+Upstream date: 2026-08-31 20:21 +0200
+Architecture: aarch64
+Kernel: Linux 7.0.0-1010-oracle
+
+GCC:
+gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+
+Clang:
+Ubuntu clang version 21.1.8 (6ubuntu1)
+
+Relevant source:
+acinclude.m4
+
+Observed source inventory:
+2 old-style lshift_com definitions associated with mpn_lshift_com configure probes.

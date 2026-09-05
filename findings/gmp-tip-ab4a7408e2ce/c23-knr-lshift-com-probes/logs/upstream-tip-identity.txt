@@ -1,0 +1,9 @@
+TIP=ab4a7408e2ce
+REV=18587
+DATE=2026-08-31 20:21 +0200
+DESC=mpn/generic/bsqrt.c: Add a comment.
+
+634:GMP_PROG_CC_WORKS_PART_MAIN([$1], [mpn_lshift_com optimization],
+646:lshift_com (rp, up, n, cnt)
+687:GMP_PROG_CC_WORKS_PART_MAIN([$1], [mpn_lshift_com optimization 2],
+697:lshift_com (rp, up, n, cnt)
