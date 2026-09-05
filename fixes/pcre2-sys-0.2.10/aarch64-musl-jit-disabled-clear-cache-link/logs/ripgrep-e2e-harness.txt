@@ -1,0 +1,76 @@
+=====================================================================
+ RIPGREP 15.2.0 — AARCH64 MUSL PCRE2 JIT END-TO-END HARNESS
+=====================================================================
+CLONE_RC=0
+SOURCE_HEAD=e89fff89ac9af12e8d4ce9d5fd07beb408ca730f
+HARNESS_EDIT=PASS
+HARNESS_EDIT_RC=0
+diff --git a/Cargo.toml b/Cargo.toml
+index 0fce841..fd0d819 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -60,7 +60,7 @@ serde_json = "1.0.23"
+ termcolor = "1.4.0"
+ textwrap = { version = "0.16.0", default-features = false }
+
+-[target.'cfg(all(target_env = "musl", target_pointer_width = "64"))'.dependencies.tikv-jemallocator]
++[target.'cfg(all(target_env = "musl", target_pointer_width = "64", not(target_arch = "aarch64")))'.dependencies.tikv-jemallocator]
+ version = "0.7.0"
+
+ [dev-dependencies]
+@@ -115,3 +115,6 @@ ripgrep (rg) recursively searches your current directory for a regex pattern.
+ By default, ripgrep will respect your .gitignore and automatically skip hidden
+ files/directories and binary files.
+ """
++
++[patch.crates-io]
++pcre2-sys = { path = "/osarm-build/audit/AUDIT/work/pcre2-sys-candidate" }
+diff --git a/crates/core/main.rs b/crates/core/main.rs
+index c74e645..dac03c5 100644
+--- a/crates/core/main.rs
++++ b/crates/core/main.rs
+@@ -35,7 +35,7 @@ mod search;
+ //
+ // Moreover, we only do this on 64-bit systems since jemalloc doesn't support
+ // i686.
+-#[cfg(all(target_env = "musl", target_pointer_width = "64"))]
++#[cfg(all(target_env = "musl", target_pointer_width = "64", not(target_arch = "aarch64")))]
+ #[global_allocator]
+ static ALLOC: tikv_jemallocator::Jemalloc = tikv_jemallocator::Jemalloc;
+
+BUILD_RC=0 WARNINGS=0 ERRORS=0
+/osarm-build/audit/AUDIT/work/src/target/aarch64-unknown-linux-musl/release/rg: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, with debug_info, not stripped
+ripgrep 15.2.0 (rev e89fff89ac)
+
+features:+pcre2
+simd(compile):+NEON
+simd(runtime):+NEON
+
+PCRE2 10.45 is available (JIT is available)
+PCRE2 10.45 is available (JIT is available)
+1:foo42bar
+1:abab
+1:alpha
+2:mid
+3:omega
+100000
+=====================================================================
+ FINAL SUMMARY
+=====================================================================
+SOURCE_HEAD=e89fff89ac9af12e8d4ce9d5fd07beb408ca730f
+CLONE_RC=0
+HARNESS_EDIT_RC=0
+BUILD_RC=0
+BUILD_WARNING_COUNT=0
+BUILD_ERROR_COUNT=0
+JIT_STATUS=JIT is available
+LOOKAROUND_RC=0
+BACKREFERENCE_RC=0
+MULTILINE_RC=0
+STRESS_RC=0
+SHA256_VERIFY_RC=0
+REPORT_DIR=/osarm-build/audit/AUDIT
+RIPGREP_AARCH64_MUSL_PCRE2_JIT_E2E=PASS
+JEMALLOC_CHANGE=TEST_HARNESS_ONLY_NOT_FIX
+DESKTOP_COMMANDER_VENDOR_BINARY_MODIFIED=NO
+PUBLICATION_STATUS=NOT_PUBLISHED

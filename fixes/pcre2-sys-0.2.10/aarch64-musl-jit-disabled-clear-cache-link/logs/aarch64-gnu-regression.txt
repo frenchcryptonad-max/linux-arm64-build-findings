@@ -1,0 +1,86 @@
+=====================================================================
+ PCRE2 0.2.11 — AARCH64 GNU NON-REGRESSION FOR MUSL JIT CANDIDATE
+=====================================================================
+     Locking 1 package to latest Rust 1.98.1 compatible version
+      Adding pcre2-sys v0.2.10 (/osarm-build/audit/AUDIT/work/pcre2-sys-candidate)
+   Compiling libc v0.2.175
+   Compiling shlex v1.3.0
+   Compiling find-msvc-tools v0.1.2
+   Compiling pkg-config v0.3.32
+   Compiling log v0.4.28
+   Compiling jobserver v0.1.34
+   Compiling cc v1.2.38
+   Compiling pcre2-sys v0.2.10 (/osarm-build/audit/AUDIT/work/pcre2-sys-candidate)
+   Compiling pcre2 v0.2.11 (/osarm-build/audit/AUDIT/work/pcre2)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 4.05s
+     Running unittests src/lib.rs (target/aarch64-unknown-linux-gnu/debug/deps/pcre2-ca15eebde627635c)
+
+running 24 tests
+test bytes::tests::captures_get ... ok
+test bytes::tests::capture_get_does_not_panic ... ok
+test bytes::tests::capture_names ... ok
+test bytes::tests::captures_iter_empty ... ok
+test bytes::tests::crlf ... ok
+test bytes::tests::caseless ... ok
+test bytes::tests::dotall ... ok
+test bytes::tests::extended ... ok
+test bytes::tests::find_iter_empty ... ok
+test bytes::tests::jit_if_available ... ok
+test bytes::tests::find_utf_emoji_as_bytes ... ok
+test bytes::tests::jit4lyfe ... ok
+test bytes::tests::find_start_end_and_as_bytes ... ok
+test bytes::tests::jit_test_lazy_alloc_subject ... ok
+test bytes::tests::ucp ... ok
+test bytes::tests::multi_line ... ok
+test bytes::tests::max_jit_stack_size_does_something ... ok
+test bytes::tests::utf_with_invalid_data ... ok
+test bytes::tests::utf ... ok
+test pool::tests::oibits ... ok
+test pool::tests::thread_owner_distinct ... ok
+test pool::tests::thread_owner_send_drop ... ok
+test pool::tests::thread_owner_sync ... ok
+test pool::tests::thread_owner_optimization ... ok
+
+test result: ok. 24 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests pcre2
+
+running 7 tests
+test src/bytes.rs - bytes::Regex::captures (line 519) ... ok
+test src/bytes.rs - bytes::Regex::captures_iter (line 565) ... ok
+test src/bytes.rs - bytes::Captures<'s>::get (line 862) ... ok
+test src/bytes.rs - bytes::Regex::captures (line 496) ... ok
+test src/bytes.rs - bytes::Regex::find (line 439) ... ok
+test src/bytes.rs - bytes::Regex::find_iter (line 464) ... ok
+test src/bytes.rs - bytes::Regex::is_match (line 419) ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+all doctests ran in 0.43s; merged doctests compilation took 0.42s
+TEST_RC=0 WARNINGS=0 ERRORS=0
+    Updating crates.io index
+     Locking 10 packages to latest Rust 1.98.1 compatible versions
+   Compiling libc v0.2.189
+   Compiling shlex v2.0.1
+   Compiling find-msvc-tools v0.1.12
+   Compiling pkg-config v0.3.34
+   Compiling jobserver v0.1.35
+   Compiling cc v1.4.5
+   Compiling pcre2-sys v0.2.10 (/osarm-build/audit/AUDIT/work/pcre2-sys-candidate)
+   Compiling config-gnu v0.1.0 (/osarm-build/audit/AUDIT/work/config)
+    Finished `release` profile [optimized] target(s) in 3.00s
+     Running `target/aarch64-unknown-linux-gnu/release/config-gnu`
+PCRE2_CONFIG_JIT_RC=0
+PCRE2_CONFIG_JIT=1
+=====================================================================
+ FINAL SUMMARY
+=====================================================================
+TEST_RC=0
+WARNING_COUNT=0
+ERROR_COUNT=0
+CONFIG_RC=0
+SHA256_VERIFY_RC=0
+REPORT_DIR=/osarm-build/audit/AUDIT
+AARCH64_GNU_NON_REGRESSION=PASS
+SOURCE_MODIFIED=NO
+PUBLICATION_STATUS=NOT_PUBLISHED
