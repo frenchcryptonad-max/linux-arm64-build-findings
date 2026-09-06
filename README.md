@@ -1,19 +1,18 @@
-# linux-arm64-build-findings
+# OsARM build findings — repository index
 
-Reproducible Linux ARM64 build, toolchain, runtime and dependency compatibility findings maintained for the OsARM bottom-up validation process.
+This repository is the historical index for the OsARM reproducible ARM64 build, toolchain, runtime and dependency findings project.
 
-## Repository model
+Active records are now separated by implementation language so that findings, fixes and source evidence are published in the repository matching the technology being investigated.
 
-The repository is organized by lifecycle, not by programming language:
+## Active language repositories
 
-- `audits/<component-version>/<audit-id>/` preserves validated NO_FINDING results, corrected diagnostics, and investigations that do not justify a finding or fix.
-- `findings/<component-version>/<finding-id>/` proves a reproducible problem or compatibility limitation.
-- `fixes/<component-version>/<finding-id>/` contains a separate patch candidate or validated fix with before/after evidence.
-- AUDIT, FINDING and FIX records are published with separate traceable scopes; FINDING and FIX remain separate commits.
-- `SHA256SUMS` files protect the published evidence sets.
+- **C** — [osarm-c-findings](https://github.com/frenchcryptonad-max/osarm-c-findings)
+- **C++** — [osarm-cpp-findings](https://github.com/frenchcryptonad-max/osarm-cpp-findings)
+- **Rust** — [osarm-rust-findings](https://github.com/frenchcryptonad-max/osarm-rust-findings)
+- **JavaScript / Node.js** — [osarm-nodejs-findings](https://github.com/frenchcryptonad-max/osarm-nodejs-findings)
 
-A finding may span several technologies. Current evidence includes C, C++, Rust, GNU Autoconf/M4, Gnulib, SLJIT, JavaScript/TypeScript, Node.js/npm and shell test harnesses.
+Each active repository keeps the OsARM lifecycle separation between `findings/`, `fixes/` and `audits/` where applicable. Reproducer shell scripts remain support harnesses only; they are not the implementation language of the underlying finding or correction.
 
-Shell files in this repository are primarily reproducibility harnesses. They do not imply that the underlying component or correction is written in Shell. For example, GMP and SLJIT findings concern C source, while the pcre2-sys JIT correction changes Rust build logic and exercises C/SLJIT code.
+The pre-split records remain permanently available in this repository's Git history. Public history has not been rewritten or discarded.
 
-See [CATALOG.md](CATALOG.md) for the component/status/technology index.
+See [CATALOG.md](CATALOG.md) for the routing table.

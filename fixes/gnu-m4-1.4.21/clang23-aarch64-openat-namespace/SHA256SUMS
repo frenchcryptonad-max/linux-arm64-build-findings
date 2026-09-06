@@ -1,9 +1,0 @@
-42ca46f7735e48d387202942f63055e993e1d08783281fe3ac16968c148c9400  ./README.md
-62f372b5ac951e3eaeaec30fdc1154ccfb2bd0ec4b54cf77baa18980eff43fa6  ./environment.txt
-629c6b89e62c5e8dccf1cdca66b2122a7de452e348082be01eec9914b720f8df  ./logs/failure-signatures.txt
-5b159327f49e493d85b7b9042a17bc3eb6a7b4a8f1c20c26f51114aa43c962cd  ./logs/openat-only-fcntl-cxx.log
-8f0a43b20c03aff1a008763c20b12d480a1f4fccdd1f911b53db10628ec36256  ./logs/openat-only-full-check.log
-7a7adcacc9c98dc89b89e25adf4cc066fe1413dd9d9193a57ed44e4c08daa1dd  ./logs/original-fcntl-cxx.log
-c414388f4fa40bed1f728f260135603e0bcab3a44d2b210560c0212856299739  ./patches/0001-gnulib-openat-use-cxxaliaswarn1.patch
-1b33e24095775007883bcdf223cdb9f8a886f9a231fb8301c56474292de222ea  ./results.txt
-687af926aba830f4c6a8f61910ee6290cb05c027a0add7658cc70a6551f0e060  ./source-evidence-SHA256SUMS.txt

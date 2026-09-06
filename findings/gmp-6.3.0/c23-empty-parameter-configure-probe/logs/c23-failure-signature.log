@@ -1,7 +1,0 @@
-=== GCC GNU23 ===
-12:checking compiler /usr/bin/gcc -O2 -std=gnu23 ... no, long long reliability test 1
-13:configure: error: could not find a working compiler, see config.log for details
-
-=== CLANG GNU23 ===
-13:checking compiler /usr/bin/clang -O2 -std=gnu23 ... no, long long reliability test 1
-14:configure: error: could not find a working compiler, see config.log for details

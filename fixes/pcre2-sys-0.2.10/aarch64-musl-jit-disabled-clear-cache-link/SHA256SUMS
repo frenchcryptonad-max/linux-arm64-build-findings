@@ -1,9 +1,0 @@
-a4648e9dcfceee2fa283d1065907d7a13045da475a2c81dedf9c7e8842751025  ./README.md
-1cc3ddbf79240f2dff83ffb2ca7bcbb657076202150ff148e80fe96f3fb9ef88  ./environment.txt
-0bae58b4fdc6f6aac6c0a705e65cfda1eb2daf478d96bf19ac70af8d1918d982  ./logs/aarch64-gnu-regression.txt
-7a91346031b05674c919bc0cc4dc78849facfdff77d320ed3c68952bf60cef4c  ./logs/aarch64-musl-validation.txt
-a2827b3928323302ed242f85535a4617f837d1fa40f645adcb40d7b0d9b441fb  ./logs/ripgrep-e2e-harness.txt
-1e1682f74311d21e8a94da4b842038e6a788748f03a87765fe59250a3e4af207  ./patches/0001-pcre2-sys-enable-aarch64-musl-jit-and-link-gcc.patch
-58374389093d4269d07655aa63ef232703d25d54c2f02ba051b0070330d7589f  ./raw-publication-normalization-SHA256SUMS.txt
-6e38a0e4456ed1f3557e2f502a669001814125e5aabde09bd5a61349f84571ff  ./results.txt
-8d98c883ff41b6590965ec2f4f977ed7cec8217c18e590f5f77e977e91f66586  ./source-evidence-SHA256SUMS.txt

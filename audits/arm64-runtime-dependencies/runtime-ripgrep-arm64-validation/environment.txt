@@ -1,8 +1,0 @@
-COMPONENT=@wonderwhy-er/desktop-commander 0.2.48
-HOST=osarm
-ARCH=aarch64
-KERNEL=Linux 7.0.0-1010-oracle aarch64 GNU/Linux
-NODE=v26.8.1
-NPM=12.0.2
-DESKTOP_COMMANDER=0.2.48
-AUDIT_CLASS=NO_FINDING

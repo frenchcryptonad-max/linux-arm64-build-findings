@@ -1,8 +1,0 @@
-1bd3f74964c611545f9bf57523a03f9bd8f912886ccf45a512d17b719110a95d  ./README.md
-15aa83ae8754374b5e38f713a0622b19845756567e46f99181cdf89364fa50b6  ./environment.txt
-0bae58b4fdc6f6aac6c0a705e65cfda1eb2daf478d96bf19ac70af8d1918d982  ./logs/aarch64-gnu-regression.txt
-7a91346031b05674c919bc0cc4dc78849facfdff77d320ed3c68952bf60cef4c  ./logs/aarch64-musl-validation.txt
-2342d27788ab9db5c51dd58c714e933b95e6bfe9ba1b8d1e12a8b4e167497594  ./patches/0001-sljit-mark-temp-reg-unused-without-lse.patch
-b68b93a75e23865026c4b56a2d183ba734bd79369c514e607d1142626e0dc568  ./raw-publication-normalization-SHA256SUMS.txt
-95031a6e0096a7ffb289723ed86f05151b99224ca7a80e3bb4ff6a38090a0fc9  ./results.txt
-8d98c883ff41b6590965ec2f4f977ed7cec8217c18e590f5f77e977e91f66586  ./source-evidence-SHA256SUMS.txt
